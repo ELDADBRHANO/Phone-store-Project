@@ -10,10 +10,12 @@
   
   #header{
     grid-area: header;
-    background-color: rgb(237, 234, 234);
     display: flex;
     justify-content: space-between;
     padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.916);
+    opacity:0.9 ;
+    width: 93vw;
   }
   
   #list_pages{
@@ -25,7 +27,7 @@
 
   #main{
     grid-area: main;
-    background-color: rgb(221, 234, 234);
+    background-color: rgb(8, 8, 8);
     height: 100vh;
   }
   
@@ -33,13 +35,16 @@
     grid-area: footer;
     background-color: rgba(20, 202, 230, 0.317);
     height: 10vh;
+    background-color: rgba(0, 0, 0, 0.916);
+    opacity:0.9 ;
+    width: 93vw;
+    padding: 1rem;
   }
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(119, 107, 107);
   }
   
   li {
@@ -49,7 +54,6 @@
   }
   
   li a {
-    color: white;
     text-align: center;
     text-decoration: none;
   }
@@ -79,6 +83,10 @@
     display: none;
   }
   #body_img{
-    max-width: 100vw;
+    width: 100vw;
+    height: 100vh;
+  }
+  #dropdown{
+    color: aliceblue;
   }
 }
