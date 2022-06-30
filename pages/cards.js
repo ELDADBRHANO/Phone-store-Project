@@ -18,7 +18,7 @@ function cardTemplate(device) {
   <div> color : ${color}</div>
   <div> pic : ${picture}</div>
   <div> Available : ${isAvailable}</div>
-  <div> ram : ${ram}</div>
+  <div>  ${ram}GB </div>
   <div> release in : ${createdAt}</div>
   </div>
   `
