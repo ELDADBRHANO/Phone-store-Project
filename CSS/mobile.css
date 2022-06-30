@@ -12,6 +12,8 @@
     grid-area: header;
     background-color: rgb(237, 234, 234);
     display: flex;
+    justify-content: space-between;
+    padding: 1rem;
   }
   
   #list_pages{
@@ -68,5 +70,12 @@
   #social_media{
     display: flex;
     justify-content: space-around;
+  }
+  #btn{
+    height: 10vh;
+    width: 20vw;
+  }
+  .hidden{
+    display: none;
   }
 }
