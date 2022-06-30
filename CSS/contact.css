@@ -1,0 +1,78 @@
+@media screen and (max-width:550px) {
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  #container{
+    grid-template-areas:
+   'header header header header'
+    'main main main main'
+    'main main main main'
+    'main main main main'
+    'footer footer footer footer';
+    position: relative;
+  }
+  
+  #header{
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.916);
+    opacity:0.9 ;
+    width: 100vw;
+    position: sticky;
+    top: 0;
+  }
+  #footer{
+    grid-area: footer;
+    background-color: rgba(20, 202, 230, 0.317);
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.916);
+    opacity:0.9 ;
+    width: 100vw;
+    padding: 1rem;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+ 
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+ 
+  
+  /* Style the container/contact section */
+  .container {
+    background-image: url(/imges/container_img/3368482.jpg);
+    background-size: 100vh;
+    background-repeat: repeat-y;
+    height: 100vh;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10vw;
+  }
+
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+}
