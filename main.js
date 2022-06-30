@@ -1,3 +1,3 @@
 function dropdown(trigger){
-  trigger.nextElementSibling.classList.toggle('hidden') 
+  trigger.nextElementSibling.classList.toggle('hidden');
 }

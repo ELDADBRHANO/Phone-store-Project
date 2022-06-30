@@ -1,4 +1,8 @@
 @media screen and (max-width:550px) {
+  body{
+    margin: 0;
+    padding: 0;
+  }
   #container{
     grid-template-areas:
    'header header header header',
@@ -6,6 +10,7 @@
     'main main main main',
     'main main main main'
     'footer footer footer footer';
+    position: relative;
   }
   
   #header{
@@ -16,6 +21,8 @@
     background-color: rgba(0, 0, 0, 0.916);
     opacity:0.9 ;
     width: 93vw;
+    position: sticky;
+    top: 0;
   }
   
   #list_pages{
@@ -57,35 +64,49 @@
     text-align: center;
     text-decoration: none;
   }
-  
+
+  a{
+    color:white ;
+    text-decoration: none;
+    line-height: 2rem;
+  }
+
   li a:hover {
     background-color: rgb(235, 227, 227);
   }
+
   #logo{
     width: 30vw;
     padding: 1vw;
   }
+
   #git_img{
     width: 25vw;
   }
+
   #linkdin_img{
     width: 20vw;
   }
+
   #social_media{
     display: flex;
     justify-content: space-around;
   }
+
   #btn{
     height: 10vh;
     width: 20vw;
   }
+
   .hidden{
     display: none;
   }
+
   #body_img{
     width: 100vw;
     height: 100vh;
   }
+
   #dropdown{
     color: aliceblue;
   }
