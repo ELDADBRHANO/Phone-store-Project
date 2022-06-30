@@ -10,19 +10,18 @@ async function get(html = " "){
 get()
 
 function cardTemplate(device) {
-  let {id,brand,price,color,pic,isAvailable,ram,createdAt} = device
+  let {id,brand,price,color,picture,isAvailable,ram,createdAt} = device
   return  `<div id="card">
   <div> brand : ${brand}  </div>
-  <div> price : ${price}</div>
-  <div> id : ${id}</div>
+  <div> price : ${price} $</div>
+  <div> serial number : ${id}</div>
   <div> color : ${color}</div>
-  <div> pic : ${pic}</div>
+  <div> pic : ${picture}</div>
   <div> Available : ${isAvailable}</div>
   <div> ram : ${ram}</div>
-  <div> createdAt : ${createdAt}</div>
+  <div> release in : ${createdAt}</div>
   </div>
   `
-  // return card.innerHTML += 
 }
 
 
