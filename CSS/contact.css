@@ -52,16 +52,15 @@
     color: white;
     padding: 12px 20px;
     border: none;
-    cursor: pointer;
   }
   
  
   
   /* Style the container/contact section */
   .container {
-    background-image: url(/imges/container_img/3368482.jpg);
-    background-size: 100vh;
-    background-repeat: repeat-y;
+    background-image: url(/imges/container_img/contact.img.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     height: 100vh;
     border-radius: 5px;
     background-color: #f2f2f2;
