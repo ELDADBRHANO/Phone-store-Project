@@ -4,36 +4,44 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-<link rel="stylesheet" href="CSS/mobile.css" media="screen and (min-width:390px)" />
-  <link rel="stylesheet" href="CSS/desktop.css" media="screen and (max-width:700px)"/>
+  <title>Eldad's Lab</title>
+<link rel="stylesheet" href="CSS/mobile.css"/>
+  <link rel="stylesheet" href="CSS/desktop.css" media="screen and (min-width:992px)"/>
 </head>
 <body>
   <div id="container">
-    <div id="header">
+    <header id="header">
+      <!-- <input id="input_search" type="search"> -->
       <img id="logo" src="imges/header-logo-img/logo.png" alt="">
-      <ul id="list_pages">
-        <li> <a href="index.html"></a> </li>
-        <li> <a href="pages/dataTabs.html"></a> </li>
-        <li> <a href="pages/AboutEldad'sLab.html"></a> </li>
-        <li> <a href="pages/users.html"></a> </li>
-        <li> <a href="pages/Contact.html"></a> </li>
-      </ul>
-      <!-- <button id="signin_btn">sign in</button>
-      <input id="search_input" placeholder="search" type="search"> -->
-    </div>
+      <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="pages/AboutEldad'sLab.html">About the Lab </a><li>
+          <li><a href="pages/Contact.html">Contact</a></li>
+          <li><a href="pages/dataTabs.html">cards</a></li>
+          <li><a href="pages/users.html">users</a></li>
+        </ul>
+    </header>
     
     <div id="sidebar">
 
     </div>
 
     <div id="main">
-
+      <h1>Welcome to Eldad's Lab!</h1>
+      <p>If you need a new phone, you ARE IN THE RIGHT PLACE!</p>
+      
     </div>
 
-    <div id="footer">
-
-    </div>
+    <footer id="footer">
+      <div id="social_media">
+        <a href="https://www.linkedin.com/in/eldad-brhano-59b531235/">
+          <img src="imges/footer-imges/linkdin.png" id="linkdin_img" alt="">
+        </a>
+        <a href="https://github.com/ELDADBRHANO">
+          <img src="imges/footer-imges/git.png" id="git_img" alt="">
+        </a>
+      </div>
+    </footer>
   </div>
   <script src="main.js"></script>
 </body>

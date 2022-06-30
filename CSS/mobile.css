@@ -1,37 +1,72 @@
-#container{
-  grid-template-areas:
- 'header header header header',
-  'main main main main',
-  'main main main main',
-  'main main main main'
-  'footer footer footer footer';
-}
+@media screen and (max-width:550px) {
+  #container{
+    grid-template-areas:
+   'header header header header',
+    'main main main main',
+    'main main main main',
+    'main main main main'
+    'footer footer footer footer';
+  }
+  
+  #header{
+    grid-area: header;
+    background-color: rgb(237, 234, 234);
+    display: flex;
+  }
+  
+  #list_pages{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  
 
-#header{
-  grid-area: header;
-  background-color: rgb(170, 1, 1);
-
-}
-
-#list_pages{
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-}
-
-#logo{
-  width: 30vw;
-}
-
-
-#sidebar{
-  display: none;
-}
-
-#main{
-  grid-area: main;
-}
-
-#footer{
-  grid-area: footer;
+  #main{
+    grid-area: main;
+    background-color: rgb(221, 234, 234);
+    height: 30vh;
+  }
+  
+  #footer{
+    grid-area: footer;
+    background-color: rgba(20, 202, 230, 0.317);
+    height: 10vh;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(119, 107, 107);
+  }
+  
+  li {
+    float: left;
+    padding: 4vw ;
+    padding-top: 4vw;
+  }
+  
+  li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(235, 227, 227);
+  }
+  #logo{
+    width: 30vw;
+    padding: 1vw;
+  }
+  #git_img{
+    width: 25vw;
+  }
+  #linkdin_img{
+    width: 20vw;
+  }
+  #social_media{
+    display: flex;
+    justify-content: space-around;
+  }
 }
