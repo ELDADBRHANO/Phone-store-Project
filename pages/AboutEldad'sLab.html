@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link rel="stylesheet" href="/CSS/general.css" />
+    <link rel="stylesheet" href="/CSS/mobile.css" />
+    <link
+      rel="stylesheet"
+      href="/CSS/desktop.css"
+      media="screen and (min-width:992px)"
+    />
+    <link rel="stylesheet" href="/CSS/dataTabs.css" />
+    <link rel="stylesheet" href="/CSS/aboutUs.css" />
+  </head>
+  <body>
+    <div id="container">
+      <header id="header">
+        <img id="logo" src="/imges/header-logo-img/logo.png" alt="" />
+        <div id="dropdown" onclick="dropdown(this)">&#9776;</div>
+        <div class="hidden">
+          <div><a href="/index.html">Home</a></div>
+          <div><a href="AboutEldad'sLab.html">About the Lab </a></div>
+          <div><a href="Contact.html">Contact</a></div>
+          <div><a href="dataTabs.html">Phones</a></div>
+          <div><a href="users.html">Users</a></div>
+        </div>
+      </header>
+      <div id="main">
+        <div id="section-1">
+          <h2>Repair phones && Selling phones</h2>
+          <h3>We guarantee the best price in the market!</h3>
+          <span
+            >Check for prices at diffrent stores, IF THE PRICE IS LOWER DO NOT
+            PAY US!</span
+          >
+          <br />
+          <mark
+            ><small
+              >IDF soldiers here you can get services for free.</small
+            ></mark
+          >
+          <p>
+            Here in the LAB we taking care for the devecies like they are, are
+            own childrens.
+          </p>
+        </div>
+        <h4>Vote for the best worker:</h4>
+        <div id="workers">
+          <details id="details">
+            <input value="Eldad Brhano" type="text">
+            <input value="Lior Dawit" type="text">
+            <input value="Lior Aytegev" type="text">
+            <input value="Solomon Avrham" type="text">
+            <input value="Abaynech Asya" type="text">
+            <input value="Daniel Maleda" type="text">
+          </details>
+        </div>
+        <button onclick="clc()">
+          click
+          <div id="showUp"></div>
+        </button>
+      </div>
+      <footer id="footer">
+        <div id="social_media">
+          <a href="https://www.linkedin.com/in/eldad-brhano-59b531235/">
+            <img
+              src="/imges/footer-imges/linkdin.png"
+              id="linkdin_img"
+              alt=""
+            />
+          </a>
+          <a href="https://github.com/ELDADBRHANO">
+            <img src="/imges/footer-imges/git.png" id="git_img" alt="" />
+          </a>
+        </div>
+      </footer>
+    </div>
+    <script src="/main.js"></script>
+    <script src="/jsFiles/about.js"></script>
+  </body>
+</html>
