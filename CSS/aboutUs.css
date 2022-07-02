@@ -36,18 +36,18 @@ form{
   animation: workersimg 8s infinite;
 }
 @keyframes workersimg {
-  15%{background-image: url(/imges/workersimgess/eldad.img);
+  15%{background-image: url(../imges/workersimgess/eldad.img);
   background-size: 100% 100%;
   }
-  30%{background-image: url(/imges/workersimgess/abaynech.img);
+  30%{background-image: url(../imges/workersimgess/abaynech.img);
     background-size: 100% 100%}
-  45%{background-image: url(/imges/workersimgess/daniel.img);
+  45%{background-image: url(../imges/workersimgess/daniel.img);
     background-size: 100% 100%}
-  60%{background-image: url(/imges/workersimgess/lior.img);
+  60%{background-image: url(../imges/workersimgess/sol.img);
     background-size: 100% 100%}
-  75%{background-image: url(/imges/workersimgess/sol.img);
+  75%{background-image: url(../imges/workersimgess/lior.img);
     background-size: 100% 100%}
-  100%{background-image:url(/imges/workersimgess/dawit.img);
+  100%{background-image:url(../imges/workersimgess/dawit.img);
     background-size: 100% 100%}
 }
 #header-workersimg{

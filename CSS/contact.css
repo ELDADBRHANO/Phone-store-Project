@@ -58,7 +58,7 @@
   
   /* Style the container/contact section */
   .container {
-    background-image: url(/imges/container_img/contact.img.jpg);
+    background-image: url(../imges/container_img/contact.img.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 100vh;
