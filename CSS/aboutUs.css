@@ -1,6 +1,6 @@
 @media screen and (max-width:550px) {
 #main{
-  background-image: url(/imges/container_img/aboutus.gif.gif);
+  background-image: url(/imges/container_img/imgimgimg.jpg);
   background-size: 100% 100%;
   padding: 0.5rem;
 }
@@ -8,20 +8,55 @@
   display: flex;
   justify-content: left;
 }
-#audio{
-  width: 30vw;
-  height: 20vh;
-}
-#showUp {
-  /* width: 100px;
-  height: 100px; */
-  background: rgb(241, 241, 241);
-  position: relative;
-  animation: mymove 5s infinite;
-}
 
-/* @keyframes mymove {
-  from {bottom: 0px;}
-  to {bottom: 200px;}
-} */
+#mark{
+  background-color: white;
+}
+#vote-worker{
+  background-color: white;
+}
+#lottery-table{
+  border: 1px solid black;
+}
+td{
+  border-bottom: 1px solid black;
+}
+#mainContent{
+  display: flex;
+  flex-direction: column;
+}
+form{
+  display: flex;
+  flex-direction: column
+}
+#workersimges{
+  display: flex;
+  width: 50vw;
+  height: 25vh;
+  animation: workersimg 8s infinite;
+}
+@keyframes workersimg {
+  15%{background-image: url(/imges/workersimgess/eldad.img);
+  background-size: 100% 100%;
+  }
+  30%{background-image: url(/imges/workersimgess/abaynech.img);
+    background-size: 100% 100%}
+  45%{background-image: url(/imges/workersimgess/daniel.img);
+    background-size: 100% 100%}
+  60%{background-image: url(/imges/workersimgess/lior.img);
+    background-size: 100% 100%}
+  75%{background-image: url(/imges/workersimgess/sol.img);
+    background-size: 100% 100%}
+  100%{background-image:url(/imges/workersimgess/dawit.img);
+    background-size: 100% 100%}
+}
+#header-workersimg{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+#work{
+  display: flex;
+  justify-content: center;
+}
 }

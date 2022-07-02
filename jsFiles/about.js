@@ -1,3 +1,4 @@
-function clc() {
-  showUp.innerHTML
+function printThanks() {
+  workers.innerHTML=`<p>Thank you for voting!</p>`
 }
+
