@@ -1,16 +1,12 @@
 let API = "https://my-json-server.typicode.com/Jeck99/fake-server/users";
 async function getUsers(html = " ") {
   try {
+    main.innerHTML= `<img src="../imges/container_img/loading.gif">`
     let users = await fetch(API)
     .then(res=>res.json())
     users.forEach(user => {
       html += printUser(user)
     });
-
-    // for (const key of users) {
-    //   console.log(users[key])
-    //   html += printUser(users[key])
-    // }
   } 
   catch (error) {
     console.log(error);
@@ -20,7 +16,6 @@ async function getUsers(html = " ") {
 getUsers()
 
 function printUser(user) {
-  // let {age, email, name, phone, picture, _id} = user;
  return `
  <div id="user">
  <div> Age : ${user.age} </div>
@@ -33,7 +28,6 @@ function printUser(user) {
  </div>
  `;
 }
-// printUser()
 
  async function registerUser() {
   tru

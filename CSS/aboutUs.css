@@ -14,7 +14,7 @@
   background-color: white;
 }
 #vote-worker{
-  background-color: white;
+padding: 4rem;
 }
 #lottery-table{
   border: 1px solid black;
@@ -25,6 +25,7 @@ td{
 #mainContent{
   display: flex;
   flex-direction: column;
+  
 }
 form{
   display: flex;
@@ -54,10 +55,13 @@ form{
 #header-workersimg{
   display: flex;
   justify-content: center;
-  background-color: white;
 }
 #work{
   display: flex;
   justify-content: center;
+}
+#footer{
+  background-color: #e9bcb7;
+  background-image: linear-gradient(315deg, #90d5ec 0%, #db8084d2 74%);
 }
 }

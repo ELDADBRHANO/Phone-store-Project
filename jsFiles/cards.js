@@ -21,7 +21,7 @@ function cardTemplate(device) {
   <div> Available : ${isAvailable}</div>
   <div>  ${ram}GB </div>
   <div> release in : ${createdAt}</div>
-  <button onclick="del()"> delete</button>
+  <button id="btn_del" onclick="del()"> delete</button>
   </div>
   `;
 }
