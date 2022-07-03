@@ -1,5 +1,6 @@
 let url = "https://my-json-server.typicode.com/Jeck99/fake-server/devices";
 async function get(html = " ") {
+  container_cards.innerHTML= `<img src="../imges/container_img/loading.gif">`
   let devices = await fetch(url).then((res) => res.json());
   for (const key in devices) {
     html += cardTemplate(devices[key]);

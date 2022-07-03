@@ -27,20 +27,22 @@
         </div>
       </div>
       <div id="registration">
-        <h4>Want to register?</h4>
-        <input id="nameRegister" placeholder="Enter your name..." type="text" />
-        <input
-          id="input_lastName"
-          placeholder="Enter your last name..."
-          type="text"
-        />
-        <input id="input_email" placeholder="Enter your email..." type="text" />
-        <input
-          id="input_birth"
-          placeholder="Enter your date of birth..."
-          type="text"
-        />
-        <button onclick="registerUser()">Register</button>
+        <form onsubmit="registerUser(event)">
+          <h4>Want to register?</h4>
+          <input id="nameRegister" placeholder="Enter your name..." type="text" />
+          <input
+            id="input_lastName"
+            placeholder="Enter your last name..."
+            type="text"
+          />
+          <input id="input_email" placeholder="Enter your email..." type="text" />
+          <input
+            id="input_birth"
+            placeholder="Enter your date of birth..."
+            type="text"
+          />
+          <button onclick="registerUser()">Register</button>
+        </form>
       </div>
       <footer id="footer">
         <div id="social_media">
