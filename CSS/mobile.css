@@ -40,7 +40,6 @@
   
   #footer{
     grid-area: footer;
-    background-color: rgba(20, 202, 230, 0.317);
     height: 10vh;
     background-color: #001412;
     opacity:0.9 ;

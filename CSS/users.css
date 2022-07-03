@@ -1,0 +1,8 @@
+@media screen and (max-width:550px) {
+  #main{
+    background-color: aliceblue;
+  }
+#social_media{
+  background-color: #001412;
+}
+}
