@@ -1,6 +1,7 @@
 @media screen and (max-width:550px) {
+
 #main{
-  background-image: url(../imges/container_img/imgimgimg.jpg);
+  /* background-image: url(../imges/container_img/imgimgimg.jpg); */
   background-size: 100% 100%;
   padding: 0.5rem;
 }

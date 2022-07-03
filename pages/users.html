@@ -1,45 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="../CSS/mobile.css"/>
-  <link rel="stylesheet" href="../CSS/users.css">
-</head>
-<body>
-  <div id="container">
-    <header id="header">
-      <img id="logo" src="../imges/header-logo-img/logo.png" alt="">
-      <div id="dropdown" onclick="dropdown(this)">&#9776;</div>
-      <div class="hidden">
-        
-        <div><a href="/index.html">Home</a></div>
-        <div><a href="AboutEldad'sLab.html">About the Lab </a></div>
-        <div><a href="Contact.html">Contact</a></div>
-        <div><a href="dataTabs.html">cards</a></div>
-        <div><a href="users.html">users</a></div>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/mobile.css" />
+    <link rel="stylesheet" href="../CSS/users.css" />
+  </head>
+  <body>
+    <div id="container">
+      <header id="header">
+        <img id="logo" src="../imges/header-logo-img/logo.png" alt="" />
+        <div id="dropdown" onclick="dropdown(this)">&#9776;</div>
+        <div class="hidden">
+          <div><a href="/index.html">Home</a></div>
+          <div><a href="AboutEldad'sLab.html">About the Lab </a></div>
+          <div><a href="Contact.html">Contact</a></div>
+          <div><a href="dataTabs.html">cards</a></div>
+          <div><a href="users.html">users</a></div>
+        </div>
+      </header>
+      <h1 id="members_header">Join to our exclusive members at Eldad's LAB</h1>
+      <div id="main">
+        <div id="containeruser"></div>
       </div>
-    </header>
-    <div id="main">
-      
+      <div id="registration">
+        <h4>Want to register?</h4>
+        <input id="nameRegister" placeholder="Enter your name..." type="text" />
+        <input
+          id="input_lastName"
+          placeholder="Enter your last name..."
+          type="text"
+        />
+        <input id="input_email" placeholder="Enter your email..." type="text" />
+        <input
+          id="input_birth"
+          placeholder="Enter your date of birth..."
+          type="text"
+        />
+        <button onclick="registerUser()">Register</button>
+      </div>
+      <footer id="foooter">
+        <div id="social_media">
+          <a href="https://www.linkedin.com/in/eldad-brhano-59b531235/">
+            <img
+              src="../imges/footer-imges/linkdin.png"
+              id="linkdin_img"
+              alt=""
+            />
+          </a>
+          <a href="https://github.com/ELDADBRHANO">
+            <img src="../imges/footer-imges/git.png" id="git_img" alt="" />
+          </a>
+        </div>
+      </footer>
     </div>
-    <footer id="foooter">
-      <div id="social_media">
-        <a href="https://www.linkedin.com/in/eldad-brhano-59b531235/">
-          <img src="../imges/footer-imges/linkdin.png" id="linkdin_img" alt="">
-        </a>
-        <a href="https://github.com/ELDADBRHANO">
-          <img src="../imges/footer-imges/git.png" id="git_img" alt="">
-        </a>
-      </div>
-    </footer>
-  </div>
-  <script src="/main.js"></script>
-  <script src="../jsFiles/about.js"></script>
-  <script src="../jsFiles/users.js"></script>
-</body>
-
+    <script src="/main.js"></script>
+    <script src="../jsFiles/about.js"></script>
+    <script src="../jsFiles/users.js"></script>
+  </body>
 </html>

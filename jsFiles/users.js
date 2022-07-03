@@ -2,9 +2,15 @@ let API = "https://my-json-server.typicode.com/Jeck99/fake-server/users";
 async function getUsers(html = " ") {
   try {
     let users = await fetch(API)
-    for (const key in users) {
-      html+= print(users[key])
-    }
+    .then(res=>res.json())
+    users.forEach(user => {
+      html += printUser(user)
+    });
+
+    // for (const key of users) {
+    //   console.log(users[key])
+    //   html += printUser(users[key])
+    // }
   } 
   catch (error) {
     console.log(error);
@@ -13,26 +19,22 @@ async function getUsers(html = " ") {
 }
 getUsers()
 
-function print(user) {
-  let {age, email,index,name ,phone,picture,_id} = user;
+function printUser(user) {
+  // let {age, email, name, phone, picture, _id} = user;
  return `
- <div id="card">
- <div> Age : ${age} </div>
- <div> Email : ${email} </div>
- <div> Name : ${name}</div>
- <div> Color : ${index}</div>
- <div> Pic : ${phone}</div>
- <div> Available : ${picture}</div>
- <div> id : ${_id}</div>
+ <div id="user">
+ <div> Age : ${user.age} </div>
+ <div> Email : ${user.email} </div>
+ <div> private name: ${user.name.first}</div>
+ <div> last name : ${user.name.last}</div>
+ <div> Number : ${user.phone}</div>
+ <div> Pic : ${user.picture}</div>
+ <div> id : ${user._id}</div>
  </div>
  `;
 }
-print()
+// printUser()
 
-// age: 35
-// email: 
-// index: 
-// name:
-// phone: 
-// picture: 
-// _id: 
+ async function registerUser() {
+  tru
+ }

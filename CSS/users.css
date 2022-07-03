@@ -1,8 +1,43 @@
-@media screen and (max-width:550px) {
-  #main{
-    background-color: aliceblue;
+@media screen and (max-width: 550px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma ;
   }
-#social_media{
-  background-color: #001412;
-}
+  #main {
+    background-image: url(../imges/container_img/pexels-robin-schreiner-2261166.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #social_media {
+    background-color: #001412;
+  }
+  #user {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50vw;
+    border: 4px solid black;
+    padding: 4rem;
+    margin: 1rem;
+  }
+  #members_header {
+    background-image: url(../imges/container_img/pexels-robin-schreiner-2261166.jpg);
+    background-size: 100% 100%;
+    /* background-color: #001412; */
+    /* color: white; */
+    padding: 4rem;
+  }
+  #registration {
+    /* gap: 1rem; */
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+  }
+  #user{
+    border-radius: 5%;
+  }
 }
