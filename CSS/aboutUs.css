@@ -1,7 +1,10 @@
 @media screen and (max-width:550px) {
-
-#main{
-  /* background-image: url(../imges/container_img/imgimgimg.jpg); */
+  #eldadd{
+    width: 100vw;
+  }
+}
+/* #main{
+  /* background-image: url(../imges/container_img/imgimgimg.jpg); 
   background-size: 100% 100%;
   padding: 0.5rem;
 }
@@ -63,5 +66,68 @@ form{
 #footer{
   background-color: #e9bcb7;
   background-image: linear-gradient(315deg, #90d5ec 0%, #db8084d2 74%);
+} 
 }
-}
+
+
+@media screen and (min-width:550px) {
+  /* #workers{
+    display: flex;
+    justify-content: left;
+  }
+  
+  #mark{
+    background-color: white;
+  }
+  #vote-worker{
+  padding: 4rem;
+  }
+  #lottery-table{
+    border: 1px solid black;
+  }
+  td{
+    border-bottom: 1px solid black;
+  }
+  #mainContent{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  #workersimges{
+    width: 25vw;
+    height: 25vh;
+    animation: workersimg 8s infinite;
+  }
+  @keyframes workersimg {
+    15%{background-image: url(../imges/workersimgess/eldad.img);
+    background-size: 100% 100%;
+    }
+    30%{background-image: url(../imges/workersimgess/abaynech.img);
+      background-size: 100% 100%}
+    45%{background-image: url(../imges/workersimgess/daniel.img);
+      background-size: 100% 100%}
+    60%{background-image: url(../imges/workersimgess/sol.img);
+      background-size: 100% 100%}
+    75%{background-image: url(../imges/workersimgess/lior.img);
+      background-size: 100% 100%}
+    100%{background-image:url(../imges/workersimgess/dawit.img);
+      background-size: 100% 100%}
+  }
+  #lottery-table{
+    border: 1px solid black;
+    width: 30vw;
+  }
+  td{
+    border-bottom: 1px solid black;
+  
+  }
+  #main{
+    display: flex;
+   
+  } */
+

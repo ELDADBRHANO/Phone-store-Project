@@ -105,14 +105,14 @@ body {
     color: rgb(241, 236, 236);
     font-size: 2rem;
   }
-  p{
+  .p-hidden{
     display: none;
   }
 }
 
 @media screen and (min-width: 550px) {
   body{
-    background-image: url(/imges/big-home-imges/optiona.jpg);
+    background-image: url(/imges/big-home-imges/pexels-gradienta-6985045.jpg);
     background-size: 100% 100%;
   }
   #header {
@@ -153,7 +153,7 @@ body {
     justify-content: space-around;
   }
   a {
-    color: white;
+    color: black;
     text-decoration: none;
     line-height: 2rem;
   }
