@@ -2,37 +2,28 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial;
+  font-size: xx-large;
   background-image: url(../imges/big-home-imges/pexels-gradienta-6985045.jpg);
-  background-size: 100% ;
+  background-size: 100% 100% ;
 }
 @media screen and (max-width:550px) {
-  #container{
-    grid-template-areas:
-   'header header header header'
-    'main main main main'
-    'main main main main'
-    'main main main main'
-    'footer footer footer footer';
-    position: relative;
-  }
-  
   #header{
     grid-area: header;
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    background-color: rgba(0, 0, 0, 0.916);
     width: 100vw;
     position: sticky;
     top: 0;
+    
   }
   #footer{
     grid-area: footer;
     /* background-color: #e9bcb7;
     background-image: linear-gradient(315deg, #90d5ec 0%, #db8084d2 74%); */
-    height: 10vh;
+    /* height: 10vh; */
+    /* width: 100vw; */
     opacity:0.9 ;
-    width: 100vw;
     padding: 1rem;
   }
   * {
@@ -42,8 +33,7 @@ body {
  
   input[type=text], select, textarea {
     width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
+    /* padding: 12px; */
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
@@ -60,9 +50,8 @@ body {
 
   .container {
     background-repeat: no-repeat;
-    height: 100vh;
     border-radius: 5px;
-    padding: 10vw;
+    padding: 7vw;
   }
 
 
@@ -85,15 +74,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: Tahoma ;
-  }
-  #container{
-    grid-template-areas:
-   'header header header header'
-    'main main main main'
-    'main main main main'
-    'main main main main'
-    'footer footer footer footer';
-    position: relative;
   }
 
   #footer{

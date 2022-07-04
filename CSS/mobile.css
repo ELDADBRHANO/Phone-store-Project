@@ -2,10 +2,14 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial;
+  font-size: xx-large;
   background-image: url(/imges/big-home-imges/pexels-gradienta-6985045.jpg);
   background-size: 100% ;
 }
 @media screen and (max-width: 550px) {
+  .a_nav_bar{
+    font-size: large;
+  }
   #container {
     grid-template-areas: "header header header header", "main main main main",
       "main main main main", "main main main main" "footer footer footer footer";
@@ -118,6 +122,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 2rem;
+    padding: 4vw;
   }
   #container {
     grid-template-areas: "header header header header", "main main main main",
@@ -164,4 +169,8 @@ body {
     border: 1px grey solid;
     border-radius: 1rem;
   }
+  a:hover{
+    color: aliceblue;
+  }
+ 
 }
