@@ -18,14 +18,78 @@ body {
     width: 100vw;
     height: 50vh;
   }
-  #women-pic{
-    height: 30vh;
-  }
+
   .workers-summary{
     padding: 1rem;
   }
 }
-/* #main{
+
+  @media screen and (min-width:550px) {
+    #eldadd{
+      width: 50vw;
+    }
+    #summary{
+      padding: 1rem;
+    }
+    #workers{
+      display: flex;
+      flex-direction: column;
+    }
+    .worker-img{
+      padding: 4rem;
+      width: 50vw;
+      height: 50vh;
+    }
+
+    .workers-summary{
+      padding: 1rem;
+    }
+    #choo-yan{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+    #raul{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+    .employeename{
+      padding: 1rem;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* #main{
   /* background-image: url(../imges/container_img/imgimgimg.jpg); 
   background-size: 100% 100%;
   padding: 0.5rem;
@@ -152,4 +216,3 @@ form{
     display: flex;
    
   } */
-
