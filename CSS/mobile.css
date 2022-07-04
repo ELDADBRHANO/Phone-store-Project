@@ -1,76 +1,71 @@
-@media screen and (max-width:550px) {
-  body{
-    margin: 0;
-    padding: 0;
-    font-family: Arial ;
-  }
-  #container{
-    grid-template-areas:
-   'header header header header',
-    'main main main main',
-    'main main main main',
-    'main main main main'
-    'footer footer footer footer';
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+@media screen and (max-width: 550px) {
+  #container {
+    grid-template-areas: "header header header header", "main main main main",
+      "main main main main", "main main main main" "footer footer footer footer";
     position: relative;
   }
-  
-  #header{
+
+  #header {
     grid-area: header;
     display: flex;
     justify-content: space-between;
     padding: 1rem;
     background-color: #e9bcb7;
     background-image: linear-gradient(315deg, #90d5ec 0%, #db8084d2 74%);
-    opacity:0.9 ;
+    opacity: 0.9;
     width: 93vw;
     position: sticky;
     top: 0;
   }
-  
-  #list_pages{
+
+  #list_pages {
     display: flex;
     flex-direction: column;
     align-items: end;
   }
-  
 
-  #main{
+  #main {
     grid-area: main;
     background-color: rgb(8, 8, 8);
     background-color: #90d5ec;
     background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);
   }
-  
-  #footer{
+
+  #footer {
     grid-area: footer;
     height: 10vh;
     background-color: #e9bcb7;
     background-image: linear-gradient(315deg, #90d5ec 0%, #db8084d2 74%);
-    opacity:0.9 ;
+    opacity: 0.9;
     width: 93vw;
     padding: 1rem;
   }
-  
+
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
   }
-  
+
   li {
     float: left;
-    padding: 4vw ;
+    padding: 4vw;
     padding-top: 4vw;
   }
-  
+
   li a {
     text-align: center;
     text-decoration: none;
   }
 
-  a{
-    color:white ;
+  a {
+    color: white;
     text-decoration: none;
     line-height: 2rem;
   }
@@ -79,42 +74,85 @@
     background-color: rgb(235, 227, 227);
   }
 
-  #logo{
+  #logo {
     width: 30vw;
     padding: 1vw;
   }
 
-  #git_img{
+  #git_img {
     width: 25vw;
   }
 
-  #linkdin_img{
+  #linkdin_img {
     width: 20vw;
   }
 
-  #social_media{
+  #social_media {
     display: flex;
     justify-content: space-around;
   }
 
-  #btn{
+  #btn {
     height: 10vh;
     width: 20vw;
   }
 
-  .hidden{
+  .hidden {
     display: none;
   }
 
-  #body_img{
+  #body_img {
     width: 100vw;
     height: 100vh;
   }
 
-  #dropdown{
+  #dropdown {
     color: rgb(241, 236, 236);
     font-size: 2rem;
   }
+}
+
+@media screen and (min-width: 600px) {
+  #header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  #container {
+    grid-template-areas: "header header header header", "main main main main",
+      "main main main main", "main main main main",
+      "main main main main" "footer footer footer footer";
+    position: relative;
+    height: 100vh;
   }
 
-
+  #dropdown {
+    display: none;
+  }
+  .hidden {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+  }
+  #body_img {
+    display: none;
+  }
+  #main {
+    height: 100vh;
+  }
+  #logo {
+    height: 10vw;
+  }
+  .git-linkdin-img {
+    width: 7vw;
+    height: 7vh;
+  }
+  /* body {
+    background-image: url(../imges/container_img/pexels-cottonbro-5083491.jpg);
+    background-size: 100% 100%;
+  } */
+  #social_media {
+    display: flex;
+    justify-content: space-around;
+  }
+}
