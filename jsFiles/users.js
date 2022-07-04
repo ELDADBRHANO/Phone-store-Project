@@ -1,33 +1,111 @@
 let API = "https://my-json-server.typicode.com/Jeck99/fake-server/users";
-async function getUsers(html = " ") {
+async function getUsers() {
   try {
-    main.innerHTML= `<img src="../imges/container_img/loading.gif">`
-    let users = await fetch(API)
-    .then(res=>res.json())
-    users.forEach(user => {
-      html += printUser(user)
-    });
+   return await fetch(API).then(res=>res.json())
   } 
   catch (error) {
-    console.log(error);
+    console.log();(error)
   }
-  document.getElementById("main").innerHTML= html
+  finally{}
 }
-getUsers()
 
-function printUser(user) {
- return `
- <div id="user">
- <div> Age : ${user.age} </div>
- <div> Email : ${user.email} </div>
- <div> private name: ${user.name.first}</div>
- <div> last name : ${user.name.last}</div>
- <div> Number : ${user.phone}</div>
- <div> Pic : ${user.picture}</div>
- <div> id : ${user._id}</div>
- </div>
- `;
+function printUsersToTable() {
+  let myTable = document.getElementById("userTable")
+  getUsers()
+  .then((res)=>{
+    res.forEach(element => {
+      myTable.innerHTML+=`
+      <tbody">
+      <tr>
+      <td>Age : ${element.age}</td>
+      <td>${element.name.first}</td>
+      <td>${element.name.last}</td>
+      <td>${element.phone}</td>
+      </tr>
+      </tbody>
+      `
+      // myTable.style=`width:5vw; display:flex;flex-direction:column;flex-wrap:wrap;`
+    });
+  })
 }
+printUsersToTable()
+
+
+
+
+
+// `
+//       <tr id="myTr">
+//       <td>${element.age}</td>
+      
+//       <td>${element.email}</td>
+     
+//       <td>${element.name.first}</td>
+      
+//       <td>${element.name.last}</td>
+      
+//       <td>${element.phone}</td>
+      
+//       <td>${element.picture}</td>
+      
+//       <td>${element._id}</td>
+//       </tr>
+//       `
+// myTable.innerHTML+=`
+// <tr>
+// <td>${element.age}</td>
+// </tr>
+// <tr>
+// <td>${element.email}</td>
+// </tr>
+// <tr>
+// <td>${element.name.first}</td>
+// </tr>
+// <tr>
+// <td>${element.name.last}</td>
+// </tr>
+// <tr>
+// <td>${element.phone}</td>
+// </tr>
+// <tr>
+// <td>${element.picture}</td>
+// </tr>
+// <tr>
+// <td>${element._id}</td>
+// </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //  async function registerUser(event) {
 //   event.preventDefult()

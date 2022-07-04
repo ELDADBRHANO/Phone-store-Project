@@ -1,4 +1,105 @@
-@media screen and (max-width: 550px) {
+@media screen and (max-width:550px) {
+/* td{
+ border:  3px solid black;
+}
+tr{
+  width: 0vw;
+}
+
+tbody{
+  width: 40vw;
+  height: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+} */
+/* #thead{
+  width: 10vw;
+  height: 20vh;
+} */
+td{
+  border:  1px solid black;
+  width: 100vw;
+ }
+ form{
+  display: flex;
+    flex-direction: column;
+    gap: 1rem;
+ }
+ #register-sign{
+  display: flex;
+  justify-content: center;
+ }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width: 550px) { */
+  /* body {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma ;
+  }
+  #main {
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  #user {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50vw;
+    border: 4px solid black;
+    padding: 4rem;
+    margin: 1rem;
+  }
+  #members_header {
+    padding: 4rem;
+    background-color: #e9bcb7;
+    background-image: linear-gradient(315deg, #90d5ec 0%, #db8084d2 74%);
+  }
+  #registration {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+     background-color: #e9bcb7;
+    background-image: linear-gradient(315deg, #90d5ec 0%, #db8084d2 74%);
+  }
+  #user{
+    border-radius: 5%;
+  }
+  #footer{
+     background-color: #e9bcb7;
+    background-image: linear-gradient(315deg, #90d5ec 0%, #db8084d2 74%);
+  }
+} 
+
+
+@media screen and (min-width: 550px) {
   body {
     margin: 0;
     padding: 0;
@@ -22,21 +123,21 @@
   }
   #members_header {
     padding: 4rem;
-    /* background-color: #e9bcb7;
-    background-image: linear-gradient(315deg, #90d5ec 0%, #db8084d2 74%); */
+    background-color: #e9bcb7;
+    background-image: linear-gradient(315deg, #90d5ec 0%, #db8084d2 74%); 
   }
   #registration {
     display: flex;
     flex-direction: column;
     padding-bottom: 5px;
-    /* background-color: #e9bcb7;
-    background-image: linear-gradient(315deg, #90d5ec 0%, #db8084d2 74%); */
+     background-color: #e9bcb7;
+    background-image: linear-gradient(315deg, #90d5ec 0%, #db8084d2 74%); 
   }
   #user{
     border-radius: 5%;
   }
   #footer{
-    /* background-color: #e9bcb7;
-    background-image: linear-gradient(315deg, #90d5ec 0%, #db8084d2 74%); */
+    background-color: #e9bcb7;
+    background-image: linear-gradient(315deg, #90d5ec 0%, #db8084d2 74%);
   }
-}
+}  */

@@ -29,8 +29,43 @@
     padding: 3rem;
   }
   #btn_del{
-    /* background-color: #e9bcb7;
-    background-image: linear-gradient(315deg, #90d5ec 0%, #db8084d2 74%); */
+    background-color: #e9bcb7;
+    background-image: linear-gradient(315deg, #90d5ec 0%, #db8084d2 74%);
+  }
+  #main{
+    padding: 2rem;
+  }
+  #container_cards{
+    background-color: whitesmoke;
+
+  }
+}
+
+
+@media screen and (min-width:550px) {
+  #main{
+    overflow-x: hidden;
+  }
+  
+  #card{
+    width: 50vw;
+    border: 4px solid black;
+    padding: .5rem;
+    margin: 1rem;
+    flex-grow: 1;
+  }
+  
+  #container_cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #header-tabs{
+    padding: 3rem;
+  }
+  #btn_del{
+    background-color: #e9bcb7;
+    background-image: linear-gradient(315deg, #90d5ec 0%, #db8084d2 74%);
   }
   #main{
     padding: 2rem;
