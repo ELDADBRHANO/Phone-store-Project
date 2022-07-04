@@ -9,7 +9,9 @@ body {
       "main main main main", "main main main main" "footer footer footer footer";
     position: relative;
   }
-
+  .img_devices{
+   display: none;
+  }
   #header {
     grid-area: header;
     display: flex;
@@ -79,13 +81,13 @@ body {
     padding: 1vw;
   }
 
-  #git_img {
+  /* #git_img {
     width: 25vw;
   }
 
   #linkdin_img {
     width: 20vw;
-  }
+  } */
 
   #social_media {
     display: flex;
@@ -110,9 +112,16 @@ body {
     color: rgb(241, 236, 236);
     font-size: 2rem;
   }
+  p{
+    display: none;
+  }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 550px) {
+  body{
+    background-image: url(/imges/big-home-imges/optiona.jpg);
+    background-size: 100% 100%;
+  }
   #header {
     display: flex;
     justify-content: space-between;
@@ -138,21 +147,29 @@ body {
     display: none;
   }
   #main {
-    height: 100vh;
+    /* height: 100vh; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
   #logo {
     height: 10vw;
   }
-  .git-linkdin-img {
-    width: 7vw;
-    height: 7vh;
-  }
-  /* body {
-    background-image: url(../imges/container_img/pexels-cottonbro-5083491.jpg);
-    background-size: 100% 100%;
-  } */
   #social_media {
     display: flex;
     justify-content: space-around;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    line-height: 2rem;
+  }
+  a:hover{
+    opacity: 0.9;
+  }
+  .img_devices{
+    width: 20vw;
+    border: 1px grey solid;
+    border-radius: 1rem;
   }
 }
