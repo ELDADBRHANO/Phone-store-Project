@@ -1,9 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  background-image: url(../imges/big-home-imges/pexels-gradienta-6985045.jpg);
+  background-size: 100% ;
+}
 @media screen and (max-width:550px) {
-  body{
-    margin: 0;
-    padding: 0;
-    font-family: Tahoma ;
-  }
   #container{
     grid-template-areas:
    'header header header header'

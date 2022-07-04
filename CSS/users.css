@@ -1,21 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  background-image: url(../imges/big-home-imges/pexels-gradienta-6985045.jpg);
+  background-size: 100% ;
+}
 @media screen and (max-width:550px) {
-/* td{
- border:  3px solid black;
-}
-tr{
-  width: 0vw;
-}
 
-tbody{
-  width: 40vw;
-  height: 20vh;
-  display: flex;
-  flex-wrap: wrap;
-} */
-/* #thead{
-  width: 10vw;
-  height: 20vh;
-} */
 td{
   border:  1px solid black;
   width: 100vw;

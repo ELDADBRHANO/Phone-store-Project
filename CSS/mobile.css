@@ -5,9 +5,6 @@ body {
   background-image: url(/imges/big-home-imges/pexels-gradienta-6985045.jpg);
   background-size: 100% ;
 }
-/* body{
- 
-} */
 @media screen and (max-width: 550px) {
   #container {
     grid-template-areas: "header header header header", "main main main main",
