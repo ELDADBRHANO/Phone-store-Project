@@ -5,7 +5,6 @@
     font-family: Tahoma ;
   }
   #main {
-  
     background-attachment: fixed;
     display: flex;
     flex-direction: column;

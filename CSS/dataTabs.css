@@ -10,7 +10,6 @@
 }
   #main{
     overflow-x: hidden;
-    /* background-image: url(../imges/container_img/aboutus.gif.gif); */
   }
   
   #card{
@@ -27,11 +26,17 @@
     flex-wrap: wrap;
   }
   #header-tabs{
-    background-color: whitesmoke;
-    padding: 5rem;
+    padding: 3rem;
   }
   #btn_del{
     background-color: #e9bcb7;
     background-image: linear-gradient(315deg, #90d5ec 0%, #db8084d2 74%);
+  }
+  #main{
+    padding: 2rem;
+  }
+  #container_cards{
+    background-color: whitesmoke;
+
   }
 }
