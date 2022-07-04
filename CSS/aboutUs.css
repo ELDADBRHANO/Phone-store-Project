@@ -1,6 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;}
 @media screen and (max-width:550px) {
   #eldadd{
     width: 100vw;
+  }
+  #summary{
+    padding: 1rem;
+  }
+  #workers{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .worker-img{
+    width: 100vw;
+    height: 50vh;
+  }
+  #women-pic{
+    height: 30vh;
+  }
+  .workers-summary{
+    padding: 1rem;
   }
 }
 /* #main{
