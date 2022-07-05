@@ -2,8 +2,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial;
-  /* background-image: url(../imges/big-home-imges/pexels-gradienta-6985045.jpg);
-  background-size: 100% 100%; */
 }
 @media screen and (max-width: 550px) {
   #header {
@@ -23,11 +21,6 @@ body {
   #dropdown{
     color: white;
   }
-  /* #main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  } */
   #logo {
     height: 5vh;
     width: 45vw;
@@ -55,9 +48,7 @@ body {
   .hidden {
     display: none;
   }
-  /* #main{
-    height: 100vh;
-  } */
+
   #btnbuy{
     width: 20vw;
     display: flex;
@@ -70,7 +61,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* margin-bottom: 14vh; */
     align-items: center;
   }
   .holder{
@@ -130,11 +120,6 @@ body {
   #dropdown{
     display: none;
   }
-  /* #main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  } */
   #logo {
     height: 5vh;
     width: 20vw;
@@ -164,9 +149,6 @@ body {
     justify-content: center;
     gap: 5vw;
   }
-  /* #main{
-    height: 100vh;
-  } */
   #btnbuy{
     width: 20vw;
     display: flex;
@@ -181,7 +163,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* margin-bottom: 14vh; */
     align-items: center;
   }
   .holder{
