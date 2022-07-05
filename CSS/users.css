@@ -62,7 +62,7 @@ td{
     text-decoration: underline;
     /* margin-bottom: 5rem; */
    }
-   #container2{
+   .container2{
     display: flex;
     justify-content: center;
    }
