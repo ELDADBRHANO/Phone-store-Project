@@ -6,20 +6,23 @@ body {
   background-size: 100% 100% ;
 }
 @media screen and (max-width:550px) {
-  /* body{
-    font-size: large;
-  } */
+  #header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    padding: 4vw;
+  }
   #eldadd{
     width: 100vw;
   }
   #summary{
     padding: 1rem;
   }
-  #workers{
+  /* #workers{
     display: flex;
     flex-direction: column;
     
-  }
+  } */
   .worker-img{
     width: 100vw;
     height: 50vh;
@@ -28,6 +31,22 @@ body {
   .workers-summary{
     padding: 1rem;
   }
+  #logo {
+    height: 15vh;
+    width: 30vw;
+  }
+  .hidden {
+    display: none;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+    line-height: 2rem;
+  }
+  a:hover{
+    opacity: 0.9;
+  }
+
 }
 
   @media screen and (min-width:550px) {
