@@ -32,8 +32,7 @@ td{
 @media screen and (min-width:550px) {
   td{
     border:  1px solid black;
-    width: 50vw;
-
+    width: 10vw;
    }
    form{
     display: flex;
@@ -61,7 +60,16 @@ td{
     display: flex;
     justify-content: center;
     text-decoration: underline;
-    margin-bottom: 5rem;
+    /* margin-bottom: 5rem; */
+   }
+   #container2{
+    display: flex;
+    justify-content: center;
+   }
+   #registration{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
    }
 }
 

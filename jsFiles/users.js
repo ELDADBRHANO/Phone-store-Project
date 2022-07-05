@@ -17,7 +17,7 @@ function printUsersToTable() {
       myTable.innerHTML+=`
       <tbody">
       <tr>
-      <td>Age : ${element.age}</td>
+      <td> ${element.age}</td>
       <td>${element.name.first}</td>
       <td>${element.name.last}</td>
       <td>${element.phone}</td>
