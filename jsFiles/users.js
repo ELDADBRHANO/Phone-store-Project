@@ -39,7 +39,9 @@ printUsersToTable()
 
 
 
-
+// function registerUser() {
+//   registration.innerHTML=`<div>Thank you for signing up!</div><br>`
+// }
 
 
 

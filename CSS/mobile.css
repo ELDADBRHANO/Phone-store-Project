@@ -3,10 +3,60 @@ body {
   padding: 0;
   font-family: Arial;
   background-image: url(/imges/big-home-imges/pexels-gradienta-6985045.jpg);
-  background-size: 100% ;
+  background-size: 100% 100%;
 }
 @media screen and (max-width: 550px) {
-  .a_nav_bar{
+  #header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    padding: 4vw;
+  }
+  #container {
+    grid-template-areas: "header header header header", "main main main main",
+      "main main main main", "main main main main",
+      "main main main main" "footer footer footer footer";
+    position: relative;
+    height: 100vh;
+  }
+
+  #main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  #logo {
+    height: 15vh;
+    width: 30vw;
+  }
+  #social_media {
+    display: flex;
+    justify-content: space-around;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+    line-height: 2rem;
+  }
+  a:hover{
+    opacity: 0.9;
+  }
+  .img_devices{
+    width: 20vw;
+    border: 1px grey solid;
+    border-radius: 1rem;
+  }
+  a:hover{
+    color: aliceblue;
+  }
+  .hidden {
+    display: none;
+  }
+  #main{
+    height: 100vh;
+  }
+
+  /* .a_nav_bar{
     font-size: large;
   }
   #container {
@@ -22,8 +72,6 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    /* background-color: #e9bcb7;
-    background-image: linear-gradient(315deg, #90d5ec 0%, #db8084d2 74%); */
     opacity: 0.9;
     width: 93vw;
     position: sticky;
@@ -38,16 +86,11 @@ body {
 
   #main {
     grid-area: main;
-    /* background-color: rgb(8, 8, 8); */
-    /* background-color: #90d5ec;
-    background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%); */
   }
 
   #footer {
     grid-area: footer;
     height: 10vh;
-    /* background-color: #e9bcb7;
-    background-image: linear-gradient(315deg, #90d5ec 0%, #db8084d2 74%); */
     opacity: 0.9;
     width: 93vw;
     padding: 1rem;
@@ -112,13 +155,10 @@ body {
   }
   .p-hidden{
     display: none;
-  }
+  } */
 }
 
 @media screen and (min-width: 550px) {
-  /* body{
-  font-size: xx-large;
-  } */
   #header {
     display: flex;
     justify-content: space-between;
@@ -145,7 +185,6 @@ body {
     display: none;
   }
   #main {
-    /* height: 100vh; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
