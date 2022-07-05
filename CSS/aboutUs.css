@@ -2,11 +2,12 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial;
-  background-image: url(../imges/big-home-imges/pexels-gradienta-6985045.jpg);
-  background-size: 100% 100% ;
+  /* background-image: url(../imges/big-home-imges/pexels-gradienta-6985045.jpg);
+  background-size: 100% 100% ; */
 }
 @media screen and (max-width:550px) {
   #header {
+    background-color: black;
     display: flex;
     justify-content: space-between;
     padding: 2rem;
@@ -27,14 +28,14 @@ body {
     padding: 1rem;
   }
   #logo {
-    height: 15vh;
-    width: 30vw;
+    height: 5vh;
+    width: 45vw;
   }
   .hidden {
     display: none;
   }
   a {
-    color: black;
+    color: white;
     text-decoration: none;
     line-height: 2rem;
   }
@@ -44,14 +45,59 @@ body {
   #footer{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 5vh;
   }
   #social_media{
     display: contents;
   }
+  #dropdown{
+    color: white;
+  }
+  #addres{
+    background-color: black;
+    width: 100vw;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  #credit{
+    width: 40vw;
+  }
+  .my-workers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .headersentences{
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+  }
 }
 
   @media screen and (min-width:550px) {
+    .my-workers{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    #nilly_id{
+      margin-bottom: 10vh;
+    }
+    #main{
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .workers-summary{
+      width: 50vw;
+      display: flex;
+      justify-content: center;
+    }
     #header {
+      background-color: black;
       display: flex;
       justify-content: space-between;
       padding: 2rem;
@@ -73,7 +119,7 @@ body {
       justify-content: space-around;
     }
     a {
-      color: black;
+      color: white;
       text-decoration: none;
       line-height: 2rem;
     }
@@ -81,43 +127,68 @@ body {
       opacity: 0.9;
     }
     #logo {
-      height: 10vw;
+      height: 5vh;
+      width: 20vw;
     }
     #eldadd{
       width: 50vw;
       padding-left: 4vw;
-    }
-    #summary{
-      padding: 1rem;
+      width: 50vw;
+      display: flex;
+  
     }
     #workers{
       display: flex;
       flex-direction: column;
+      justify-content: center;
     }
     .worker-img{
       padding: 4rem;
       width: 50vw;
       height: 50vh;
     }
-
-    .workers-summary{
-      padding: 1rem;
-    }
-    #choo-yan{
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-    }
-    #raul{
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-    }
-    .employeename{
-      padding: 1rem;
-    }
     a:hover{
       color: aliceblue;
+    }
+    .employeename{
+      display: flex;
+      justify-content: center;
+      display: flex;
+     justify-content: center;
+    }
+    .headersentences{
+      text-decoration: underline;
+      display: flex;
+      justify-content: center;
+    }
+     .workers-summary{
+      width: 50vw;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      justify-content: flex-end;
+    }
+    .workers-summary:hover{
+      color: brown;
+    }
+    #addres{
+      background-color: black;
+      width: 100vw;
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: flex-end;
+      justify-content: space-between;;
+    }
+    #credit{
+      width: 25vw;
+      height: 20vh;
+    }
+    #footer{
+      margin-top: 5vh;
+    }
+    #founder-span{
+      display: flex;
+      justify-content: flex-end;
     }
   }
 

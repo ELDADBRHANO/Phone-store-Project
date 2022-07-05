@@ -2,11 +2,12 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial;
-  background-image: url(../imges/big-home-imges/pexels-gradienta-6985045.jpg);
-  background-size: 100% 100%;
+  /* background-image: url(../imges/big-home-imges/pexels-gradienta-6985045.jpg);
+  background-size: 100% 100%; */
 }
 @media screen and (max-width: 550px) {
   #header {
+    background-color: black;
     display: flex;
     justify-content: space-between;
     padding: 2rem;
@@ -19,22 +20,24 @@ body {
     position: relative;
     height: 100vh;
   }
-
-  #main {
+  #dropdown{
+    color: white;
+  }
+  /* #main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-  }
+  } */
   #logo {
-    height: 15vh;
-    width: 30vw;
+    height: 5vh;
+    width: 45vw;
   }
   #social_media {
     display: flex;
     justify-content: space-around;
   }
   a {
-    color: black;
+    color: white;
     text-decoration: none;
     line-height: 2rem;
   }
@@ -52,15 +55,165 @@ body {
   .hidden {
     display: none;
   }
-  #main{
+  /* #main{
     height: 100vh;
+  } */
+  #btnbuy{
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5vh;
+    background-color: white;
+    border: none;
   }
-
-
+  #main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-bottom: 14vh; */
+    align-items: center;
+  }
+  .holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15vh;
+  }
+  .iphone-img{
+    height: 50vh;
+    width: 100vw;
+  }
+  #addres{
+    background-color: black;
+    width: 100vw;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  #credit{
+    width: 40vw;
+  }
+  #footer{
+    margin-top: 5vh;
+  }
+  #iphoneGreen{
+    width: 100vw;
+  }
 }
 
 @media screen and (min-width: 550px) {
+  #addres{
+    background-color: black;
+    width: 100vw;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: space-between;;
+  }
+  #credit{
+    width: 25vw;
+    height: 20vh;
+  }
   #header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    padding: 4vw;
+  }
+  #container {
+    grid-template-areas: "header header header header", "main main main main",
+      "main main main main", "main main main main",
+      "main main main main" "footer footer footer footer";
+    position: relative;
+    height: 100vh;
+  }
+  #dropdown{
+    display: none;
+  }
+  /* #main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  } */
+  #logo {
+    height: 5vh;
+    width: 20vw;
+  }
+  #social_media {
+    display: flex;
+    justify-content: space-around;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    line-height: 2rem;
+  }
+  a:hover{
+    opacity: 0.9;
+  }
+  .img_devices{
+    width: 20vw;
+    border: 1px grey solid;
+    border-radius: 1rem;
+  }
+  a:hover{
+    color: aliceblue;
+  }
+  .hidden {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+  }
+  /* #main{
+    height: 100vh;
+  } */
+  #btnbuy{
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+    background-color: white;
+    border: none;
+    box-shadow: 2px 2px 2px;
+  }
+  #main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-bottom: 14vh; */
+    align-items: center;
+  }
+  .holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15vh;
+  }
+  .iphone-img{
+    height:60vh;
+    width: 50vw;
+  }
+  #iphoneGreen{
+    width: 100vw;
+  }
+  #footer{
+    margin-top: 5vh;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* #header {
     display: flex;
     justify-content: space-between;
     padding: 2rem;
@@ -91,7 +244,7 @@ body {
     justify-content: space-evenly;
   }
   #logo {
-    height: 10vw;
+    height: 5vw;
   }
   #social_media {
     display: flex;
@@ -106,12 +259,41 @@ body {
     opacity: 0.9;
   }
   .img_devices{
-    width: 20vw;
+    width: 30vw;
     border: 1px grey solid;
     border-radius: 1rem;
   }
   a:hover{
     color: aliceblue;
   }
- 
+  #addres{
+    background-color: black;
+  }
+ .addres-header{
+  color: whitesmoke;
+  padding: 2rem;
+
+ }
+ #addres{
+  display: flex;
+  justify-content: space-between;
+ }
+#whatapp{
+  width: 4vw;
 }
+#main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 14vh;
+  align-items: center;
+}
+#holder{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#iphone-img{
+  height: 50vh;
+  width: 70vw;
+} */
