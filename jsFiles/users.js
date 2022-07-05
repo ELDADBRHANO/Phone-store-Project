@@ -24,55 +24,10 @@ function printUsersToTable() {
       </tr>
       </tbody>
       `
-      // myTable.style=`width:5vw; display:flex;flex-direction:column;flex-wrap:wrap;`
     });
   })
 }
 printUsersToTable()
-
-
-
-
-
-// `
-//       <tr id="myTr">
-//       <td>${element.age}</td>
-      
-//       <td>${element.email}</td>
-     
-//       <td>${element.name.first}</td>
-      
-//       <td>${element.name.last}</td>
-      
-//       <td>${element.phone}</td>
-      
-//       <td>${element.picture}</td>
-      
-//       <td>${element._id}</td>
-//       </tr>
-//       `
-// myTable.innerHTML+=`
-// <tr>
-// <td>${element.age}</td>
-// </tr>
-// <tr>
-// <td>${element.email}</td>
-// </tr>
-// <tr>
-// <td>${element.name.first}</td>
-// </tr>
-// <tr>
-// <td>${element.name.last}</td>
-// </tr>
-// <tr>
-// <td>${element.phone}</td>
-// </tr>
-// <tr>
-// <td>${element.picture}</td>
-// </tr>
-// <tr>
-// <td>${element._id}</td>
-// </tr>
 
 
 

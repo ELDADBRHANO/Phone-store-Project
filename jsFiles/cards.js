@@ -13,7 +13,7 @@ function cardTemplate(device) {
   let { id, brand, price, color, picture, isAvailable, ram, createdAt } =
     device;
   return `
-  <div id="card">
+  <div id="${id}" class="card">
   <div> brand : ${brand}  </div>
   <div> price : ${price} $</div>
   <div> serial number : ${id}</div>
@@ -22,13 +22,15 @@ function cardTemplate(device) {
   <div> Available : ${isAvailable}</div>
   <div>  ${ram}GB </div>
   <div> release in : ${createdAt}</div>
-  <button id="btn_del" onclick="del()"> delete</button>
+  <button id="btn_del" onclick="del('${id}')"> delete</button>
   </div>
   `;
 }
 
-function del() {
-  let s = document.getElementById("card");
-  s.innerHTML = "";
+async function del(id) {
+  let response = await fetch(url+'/'+id)
+  if(response.status <= 299) 
+    document.getElementById(id).remove()
+  else document.getElementById('errors').innerHTML = 'Something wrong, can`t delete'
 }
 

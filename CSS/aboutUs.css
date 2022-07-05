@@ -2,14 +2,13 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial;
-  font-size: xx-large;
   background-image: url(../imges/big-home-imges/pexels-gradienta-6985045.jpg);
-  background-size: 100% ;
+  background-size: 100% 100% ;
 }
 @media screen and (max-width:550px) {
-  body{
+  /* body{
     font-size: large;
-  }
+  } */
   #eldadd{
     width: 100vw;
   }
