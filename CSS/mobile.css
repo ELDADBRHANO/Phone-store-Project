@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial;
-  background-image: url(/imges/big-home-imges/pexels-gradienta-6985045.jpg);
+  background-image: url(../imges/big-home-imges/pexels-gradienta-6985045.jpg);
   background-size: 100% 100%;
 }
 @media screen and (max-width: 550px) {
@@ -56,106 +56,7 @@ body {
     height: 100vh;
   }
 
-  /* .a_nav_bar{
-    font-size: large;
-  }
-  #container {
-    grid-template-areas: "header header header header", "main main main main",
-      "main main main main", "main main main main" "footer footer footer footer";
-    position: relative;
-  }
-  .img_devices{
-   display: none;
-  }
-  #header {
-    grid-area: header;
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    opacity: 0.9;
-    width: 93vw;
-    position: sticky;
-    top: 0;
-  }
 
-  #list_pages {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-  }
-
-  #main {
-    grid-area: main;
-  }
-
-  #footer {
-    grid-area: footer;
-    height: 10vh;
-    opacity: 0.9;
-    width: 93vw;
-    padding: 1rem;
-  }
-
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-
-  li {
-    float: left;
-    padding: 4vw;
-    padding-top: 4vw;
-  }
-
-  li a {
-    text-align: center;
-    text-decoration: none;
-  }
-
-  a {
-    color: white;
-    text-decoration: none;
-    line-height: 2rem;
-  }
-
-  li a:hover {
-    background-color: rgb(235, 227, 227);
-  }
-
-  #logo {
-    width: 30vw;
-    padding: 1vw;
-  }
-
-
-  #social_media {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  #btn {
-    height: 10vh;
-    width: 20vw;
-  }
-
-  .hidden {
-    display: none;
-  }
-
-  #body_img {
-    width: 100vw;
-    height: 100vh;
-  }
-
-  #dropdown {
-    color: rgb(241, 236, 236);
-    font-size: 2rem;
-  }
-  .p-hidden{
-    display: none;
-  } */
 }
 
 @media screen and (min-width: 550px) {

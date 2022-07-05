@@ -48,7 +48,6 @@ body {
   #social_media{
     display: contents;
   }
-
 }
 
   @media screen and (min-width:550px) {
@@ -120,7 +119,6 @@ body {
     a:hover{
       color: aliceblue;
     }
-  
   }
 
 
