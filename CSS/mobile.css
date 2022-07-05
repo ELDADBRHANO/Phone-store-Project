@@ -55,6 +55,7 @@ body {
     align-items: center;
     margin-bottom: 5vh;
     background-color: white;
+    box-shadow: 2px 2px 2px;
     border: none;
   }
   #main{
