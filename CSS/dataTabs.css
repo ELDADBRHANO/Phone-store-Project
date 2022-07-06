@@ -51,7 +51,7 @@ body {
 
   }
   .icons{
-    width: 45vw;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     height: 30vh;
