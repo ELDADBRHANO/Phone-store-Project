@@ -32,7 +32,55 @@ printUsersToTable()
 
 
 
+async function getUser() {
+  let myTable = document.getElementById("userTable")
+  const newUser={
+    info: {
+      phone: input_phone.value,
+      name: {
+        last: input_lastName.value,
+        first: nameRegister.value,
+      },
+      age:input_birth.value,
+    },
+  }
+  try {
+   await fetch(API,
+   {
+    method:"POST",
+    body:JSON.stringify(newUser),
+    headers:{
+      'Content-Type':'application/json'
+    }
+   }) 
+  }
+   catch (error) {
+    console.log(error);
+  }
+  finally{myTable.innerHTML+=`
+  <tr>
+  <td>
+  ${input_birth.value}
+  </td>
+  <td>
+  ${nameRegister.value}
+  </td>
+  <td>
+  ${input_lastName.value}
+  </td>
+  <td>
+  ${input_phone.value}
+  </td>
+  </tr>
+  
+  `
 
+}
+}
+
+function registerUser() {
+  getUser()
+}
 
 
 

@@ -2,8 +2,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial;
-  /* background-image: url(../imges/big-home-imges/pexels-gradienta-6985045.jpg);
-  background-size: 100% ; */
 }
 @media screen and (max-width:550px) {
 
@@ -11,16 +9,21 @@ td{
   border:  1px solid black;
   width: 100vw;
  }
- form{
+ #form{
   display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
  }
  #register-sign{
   display: flex;
   justify-content: center;
  }
-
+ #btn-register{
+  display: flex;
+  background-color: #e9bcb7;
+  background-image: linear-gradient(315deg, #90d5ec 0%, #db8084d2 74%);
+ }
 }
 
 
@@ -48,13 +51,16 @@ td{
     width: 30vw;
    }
    #btn-register{
+    display: flex;
     width: 10vw;
     background-color: #e9bcb7;
     background-image: linear-gradient(315deg, #90d5ec 0%, #db8084d2 74%);
    }
-   form{
+   #form{
     display: flex;
+    flex-direction: column;
     align-items: center;
+    gap: 1rem;
    }
    #members_header{
     display: flex;
