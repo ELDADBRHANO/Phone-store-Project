@@ -52,3 +52,4 @@ async function del(id) {
     document.getElementById("errors").innerHTML =
       "Something wrong, can`t delete";
 }
+// 
