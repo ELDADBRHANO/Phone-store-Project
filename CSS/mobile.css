@@ -49,7 +49,7 @@ body {
     display: none;
   }
 
-  #btnbuy{
+  .btnbuy{
     width: 20vw;
     display: flex;
     align-items: center;
@@ -93,6 +93,9 @@ body {
 }
 
 @media screen and (min-width: 550px) {
+   /* * {
+    box-sizing: border-box;
+  }   */
   #addres{
     background-color: black;
     width: 100vw;
@@ -111,6 +114,7 @@ body {
     justify-content: space-between;
     padding: 2rem;
     padding: 4vw;
+    
   }
   #container {
     grid-template-areas: "header header header header", "main main main main",
@@ -151,7 +155,7 @@ body {
     justify-content: center;
     gap: 5vw;
   }
-  #btnbuy{
+  .btnbuy{
     width: 20vw;
     display: flex;
     justify-content: center;
@@ -175,10 +179,10 @@ body {
   }
   .iphone-img{
     height:60vh;
-    width: 50vw;
+    width: 45vw;
   }
   #iphoneGreen{
-    width: 100vw;
+    width: 80vw;
   }
   #footer{
     margin-top: 5vh;

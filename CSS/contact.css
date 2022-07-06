@@ -6,8 +6,10 @@ body {
   background-size: 100% 100% ; */
 }
 @media screen and (max-width:550px) {
+  * {
+    box-sizing: border-box;
+  } */
   #header{
-    grid-area: header;
     display: flex;
     justify-content: space-between;
     padding: 1rem;
@@ -29,17 +31,12 @@ body {
   #headers-clients{
     color: #e55300;
   }
-  article{
+  #explain-costumers{
     padding: 5%;
   }
   #footer{
     grid-area: footer;
-    /* background-color: #e9bcb7;
-    background-image: linear-gradient(315deg, #90d5ec 0%, #db8084d2 74%); */
-    /* height: 10vh; */
-    /* width: 100vw; */
     opacity:0.9 ;
-    /* padding: 1rem; */
   }
   /* * {
     box-sizing: border-box;
@@ -48,7 +45,6 @@ body {
  
   input[type=text], select, textarea {
     width: 100%;
-    /* padding: 12px; */
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
@@ -88,8 +84,6 @@ body {
   body{
     margin: 0;
     padding: 0;
-    font-family: Tahoma ;
-    /* font-size: xx-large; */
   }
 
   #footer{
@@ -123,6 +117,7 @@ body {
     height: 100vh;
     border-radius: 5px;
     padding: 10vw;
+    border: 5px solid blue;
   }
   #addres{
     margin-top: 20vh;
@@ -144,7 +139,34 @@ body {
   .addres-header{
     color: white;
   }
+  #clients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #explain-costumers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55vw;
+  }
+  #support{
+    color: white;
+    border-radius: 1rem;
+    background-color:#e05530 ;
+  }
+  #headers-clients{
+    color: #e55300;
+  }
+  #location{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+  }
 
+  #map{
+    width: 70vw;
+  }
   @media screen and (max-width: 600px) {
     .column, input[type=submit] {
       width: 100%;
