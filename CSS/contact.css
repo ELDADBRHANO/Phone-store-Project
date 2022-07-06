@@ -16,6 +16,22 @@ body {
     top: 0;
     
   }
+  #clients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #support{
+    color: white;
+    border-radius: 1rem;
+    background-color:#e05530 ;
+  }
+  #headers-clients{
+    color: #e55300;
+  }
+  article{
+    padding: 5%;
+  }
   #footer{
     grid-area: footer;
     /* background-color: #e9bcb7;
@@ -23,11 +39,11 @@ body {
     /* height: 10vh; */
     /* width: 100vw; */
     opacity:0.9 ;
-    padding: 1rem;
+    /* padding: 1rem; */
   }
-  * {
+  /* * {
     box-sizing: border-box;
-  }
+  } */
   
  
   input[type=text], select, textarea {
@@ -84,9 +100,6 @@ body {
     width: 100vw;
     padding: 1rem;
   }
-  * {
-    box-sizing: border-box;
-  }
   
  
   input[type=text], select, textarea {
@@ -128,6 +141,9 @@ body {
     margin-top: 5vh;
   }
 
+  .addres-header{
+    color: white;
+  }
 
   @media screen and (max-width: 600px) {
     .column, input[type=submit] {

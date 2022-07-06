@@ -1,69 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Eldad's</title>
-  <link rel="stylesheet" href="../CSS/users.css">
-  <link rel="stylesheet" href="../CSS/mobile.css"/>
-  <link rel="stylesheet" href="../CSS/contact.css"/>
-</head>
-<body>
-  <div id="container">
-    <header id="header">
-      <img id="logo" src="../imges/header-logo-img/logo.png" alt="">
-      <div id="dropdown" onclick="dropdown(this)">&#9776;</div>
-      <div class="hidden">
-        
-        <div><a href="../index.html">Home</a></div>
-        <div><a href="AboutEldad'sLab.html">About the Lab </a></div>
-        <div><a href="Contact.html">Contact</a></div>
-        <div><a href="dataTabs.html">Phones</a></div>
-        <div><a href="users.html">users</a></div>
-
-      </div>
-    </header>
-    <div id="main">
-      <div class="container">
-        <div>
-          <h1>Contact With The LAB</h1>
-          <p>Swing by if you need help with your phone or just for coffee,  leave us a message:</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Eldad's</title>
+    <link rel="stylesheet" href="../CSS/users.css" />
+    <link rel="stylesheet" href="../CSS/mobile.css" />
+    <link rel="stylesheet" href="../CSS/contact.css" />
+  </head>
+  <body>
+    <div id="container">
+      <header id="header">
+        <img id="logo" src="../imges/header-logo-img/logo.png" alt="" />
+        <div id="dropdown" onclick="dropdown(this)">&#9776;</div>
+        <div class="hidden">
+          <div><a href="../index.html">Home</a></div>
+          <div><a href="AboutEldad'sLab.html">About the Lab </a></div>
+          <div><a href="Contact.html">Contact</a></div>
+          <div><a href="dataTabs.html">Phones</a></div>
+          <div><a href="users.html">users</a></div>
         </div>
-        <div class="row">
-          <div class="column">
-            <form>
-              <label for="fname">First Name</label>
-              <input required type="text" id="fname" name="firstname" placeholder="Your name...">
-              <label for="lname">Last Name</label>
-              <input required type="text" id="lname" name="lastname" placeholder="Your last name...">
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something..." style="height:170px"></textarea>
-              <input id="sumbit" required type="submit" value="Submit">
-            </form>
+      </header>
+      <div id="main">
+        <div class="container">
+          <div>
+            <h1>Contact With The LAB</h1>
+            <p>
+              Swing by if you need help with your phone or just for coffee,
+              leave us a message:
+            </p>
+          </div>
+          <div class="row">
+            <div class="column">
+              <form>
+                <label for="fname">First Name</label>
+                <input
+                  required
+                  type="text"
+                  id="fname"
+                  name="firstname"
+                  placeholder="Your name..."
+                />
+                <label for="lname">Last Name</label>
+                <input
+                  required
+                  type="text"
+                  id="lname"
+                  name="lastname"
+                  placeholder="Your last name..."
+                />
+                <label for="subject">Subject</label>
+                <textarea
+                  id="subject"
+                  name="subject"
+                  placeholder="Write something..."
+                  style="height: 170px"
+                ></textarea>
+                <input id="sumbit" required type="submit" value="Submit" />
+              </form>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div id="addres">
-      <img id="credit" src="/imges/footer-imges/credit.png" alt="">
-      <span class="addres-header">
-        King David Boulevard 11, Lod <br>
-        <a class="addres-header" href="mailto:ebrhano@gmail.com"><img  src="../imges/footer-imges/ma.logo.png" alt="" srcset="">Talk with US.</a><br>
-      </span> 
-    </div>
-    <footer id="footer">
-      <div id="social_media">
-        <a href="https://www.linkedin.com/in/eldad-brhano-59b531235/">
-          <img src="../imges/footer-imges/linkedin (2).png" id="linkdin_img" alt="">
-        </a>
-        <a href="https://github.com/ELDADBRHANO">
-          <img src="../imges/footer-imges/github (1).png" id="git_img" alt="">
-        </a>
+      <div id="clients">
+        <h2 id="headers-clients">For Existing Clients</h2>
+        <article>
+          <p>
+            We work hard to make our products easy to use and trouble-free, but
+            if you have a question or issue with any of our products, please
+            contact us! We are easy to reach and always at-hand if needed.
+          </p>
+          <p>If you have a question or issue, you can quickly open an incident with
+          our customer support team here. Our team will be notified immediately
+          and an incident will be automatically opened in our tracking system.
+          You can expect a prompt reply with an answer or the next steps in
+          resolving your issue. You will also have access to Mobile Labs'
+          Knowledge Base Articles, Online User Guide, Training Videos and
+          Troubleshooting tips.</p>
+          <button id="support">get support</button>
+        </article>
       </div>
-    </footer>
-  <script src="../main.js"></script>
-  <script src="../jsFiles/about.js"></script>
-  </div>
-</body>
+      <div id="addres">
+        <img id="credit" src="/imges/footer-imges/credit.png" alt="" />
+        <span class="addres-header">
+          King David Boulevard 11, Lod <br />
+          <a class="addres-header" href="mailto:ebrhano@gmail.com"
+            ><img
+              src="../imges/footer-imges/ma.logo.png"
+              alt=""
+              srcset=""
+            />Talk with US.</a
+          ><br />
+        </span>
+      </div>
+      <footer id="footer">
+        <div id="social_media">
+          <a href="https://www.linkedin.com/in/eldad-brhano-59b531235/">
+            <img
+              src="../imges/footer-imges/linkedin (2).png"
+              id="linkdin_img"
+              alt=""
+            />
+          </a>
+          <a href="https://github.com/ELDADBRHANO">
+            <img
+              src="../imges/footer-imges/github (1).png"
+              id="git_img"
+              alt=""
+            />
+          </a>
+        </div>
+      </footer>
+      <script src="../main.js"></script>
+      <script src="../jsFiles/about.js"></script>
+    </div>
+  </body>
 </html>
