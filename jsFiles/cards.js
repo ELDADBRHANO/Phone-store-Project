@@ -1,21 +1,21 @@
 let url = "https://my-json-server.typicode.com/Jeck99/fake-server/devices";
 let counter =0;
 let arrayImg = [
-  "../imges/arrayImg/samsung.png",
-  "../imges/arrayImg/samsung.png",
-  "../imges/arrayImg/iphone2.jpg",
-  "../imges/arrayImg/miiii.webp",
-  "../imges/arrayImg/sony.webp",
-  "../imges/arrayImg/googgggg.webp",
-  "../imges/arrayImg/iphone6.gif",
-  "../imges/arrayImg/iphone5.jpg",
-  "../imges/arrayImg/sony2.webp",
-  "../imges/arrayImg/iphone4.jpg",
-  "../imges/arrayImg/iphone4.jpg",
-  "../imges/arrayImg/google.webp",
-  "../imges/arrayImg/sony3.webp",
-  "../imges/arrayImg/mii.webp",
-  "../imges/arrayImg/iphone5.jpg",
+  "../imges/arrayImg/eight.webp",
+  "../imges/arrayImg/eleven.webp",
+  "../imges/arrayImg/first.webp",
+  "../imges/arrayImg/five.webp",
+  "../imges/arrayImg/forth.webp",
+  "../imges/arrayImg/fourteen.webp",
+  "../imges/arrayImg/last.webp",
+  "../imges/arrayImg/nine.webp",
+  "../imges/arrayImg/second.webp",
+  "../imges/arrayImg/seven.webp",
+  "../imges/arrayImg/six.webp",
+  "../imges/arrayImg/ten.webp",
+  "../imges/arrayImg/third.webp",
+  "../imges/arrayImg/thirdteen.webp",
+  "../imges/arrayImg/twelve.webp",
 ];
 async function get(html = " ") {
   container_cards.innerHTML = `<img src="../imges/container_img/loading.gif">`;
@@ -32,7 +32,7 @@ function cardTemplate(device) {
     device;
   return `
   <div id="${id}" class="card">
-  <img style="width:10vw;" src="${arrayImg[counter++]}">
+  <img id="phone" src="${arrayImg[counter++]}">
   <div> brand : ${brand}  </div>
   <div> price : ${price} $</div>
   <div> serial number : ${id}</div>

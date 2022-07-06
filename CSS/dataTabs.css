@@ -46,8 +46,8 @@ body {
   #main{
     padding: 2rem;
   }
-  #container_cards{
-    background-color: whitesmoke;
+  #phone{
+    width: 50vw;
 
   }
   .icons{
@@ -67,6 +67,7 @@ body {
       opacity: 0.5;
       box-shadow: 2px 2px 2px;
      }
+     
 }
 
 
@@ -93,9 +94,12 @@ body {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    
+    align-items: center;
   }
-  
+   #phone{
+    width: 20vw;
+
+  }
   #container_cards{
     display: flex;
     flex-direction: row;
@@ -110,10 +114,6 @@ body {
   }
   #main{
     padding: 2rem;
-  }
-  #container_cards{
-    background-color: whitesmoke;
-
   }
   .icons-spans{
     display: flex;

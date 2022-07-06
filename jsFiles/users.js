@@ -1,7 +1,7 @@
 let API = "https://my-json-server.typicode.com/Jeck99/fake-server/users";
 async function getUsers() {
   try {
-   return await fetch(API).then(res=>res.json())
+    return await fetch(API).then(res=>res.json())
   } 
   catch (error) {
     console.log();(error)

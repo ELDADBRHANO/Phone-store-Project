@@ -90,6 +90,25 @@ body {
   #iphoneGreen{
     width: 100vw;
   }
+  #bigS{
+    display: flex;
+    width: 100vw;
+    height: 60vh;
+    animation: bigS 8s infinite;
+  }
+  @keyframes bigS {
+    15%{background-image: url(../imges/gif_iimg/iii.webp);
+    background-size: 100% 100%;
+    }
+    30%{background-image: url(../imges/gif_iimg/iphone.webp);
+      background-size: 100% 100%}
+    45%{background-image: url(../imges/gif_iimg/iphonnenne.webp);
+      background-size: 100% 100%}
+    60%{background-image: url(../imges/gif_iimg/lll.webp);
+      background-size: 100% 100%}
+    100%{background-image: url(../imges/gif_iimg/lo.jfif);
+      background-size: 100% 100%}
+  }
 }
 
 @media screen and (min-width: 550px) {
@@ -186,6 +205,25 @@ body {
   }
   #footer{
     margin-top: 5vh;
+  }
+  #bigS{
+    display: flex;
+    width: 100vw;
+    height: 60vh;
+    animation: bigS 8s infinite;
+  }
+  @keyframes bigS {
+    15%{background-image: url(../imges/gif_iimg/iii.webp);
+    background-size: 100% 100%;
+    }
+    30%{background-image: url(../imges/gif_iimg/iphone.webp);
+      background-size: 100% 100%}
+    45%{background-image: url(../imges/gif_iimg/iphonnenne.webp);
+      background-size: 100% 100%}
+    60%{background-image: url(../imges/gif_iimg/lll.webp);
+      background-size: 100% 100%}
+    100%{background-image: url(../imges/gif_iimg/lo.jfif);
+      background-size: 100% 100%}
   }
 }
 
