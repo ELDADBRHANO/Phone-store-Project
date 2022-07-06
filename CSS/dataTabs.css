@@ -96,9 +96,16 @@ body {
     flex-direction: column;
     align-items: center;
   }
+  .card:hover{
+    background-color: #1e2020af;
+    color: white;
+  }
    #phone{
     width: 20vw;
 
+  }
+  #phone:hover{
+    width: 25vw;
   }
   #container_cards{
     display: flex;
@@ -133,4 +140,8 @@ body {
     opacity: 0.9;
     border: 1px #e05530 solid;
   }
+  
+
+  
+
 }

@@ -42,6 +42,7 @@ function cardTemplate(device) {
   <div> release in : ${createdAt}</div>
   <button id="btn_del" onclick="del('${id}')"> delete</button>
   </div>
+  
   `;
 }
 
