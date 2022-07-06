@@ -167,6 +167,17 @@ body {
   #map{
     width: 70vw;
   }
+  a {
+    color: white;
+    text-decoration: none;
+    line-height: 2rem;
+    border-radius: 5px;
+  }
+  a:hover{
+    color: #e05530;
+    opacity: 0.9;
+    border: 1px #e05530 solid;
+  }
   @media screen and (max-width: 600px) {
     .column, input[type=submit] {
       width: 100%;

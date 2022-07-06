@@ -122,9 +122,12 @@ body {
       color: white;
       text-decoration: none;
       line-height: 2rem;
+      border-radius: 5px;
     }
     a:hover{
+      color: #e05530;
       opacity: 0.9;
+      border: 1px #e05530 solid;
     }
     #logo {
       height: 5vh;
@@ -147,9 +150,6 @@ body {
       width: 50vw;
       height: 50vh;
     }
-    a:hover{
-      color: aliceblue;
-    }
     .employeename{
       display: flex;
       justify-content: center;
@@ -169,7 +169,7 @@ body {
       justify-content: flex-end;
     }
     .workers-summary:hover{
-      color: brown;
+      color: #e05530;
     }
     #addres{
       background-color: black;

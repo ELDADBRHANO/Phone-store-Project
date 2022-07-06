@@ -77,6 +77,17 @@ td{
     display: flex;
     justify-content: center;
    }
+   a {
+    color: white;
+    text-decoration: none;
+    line-height: 2rem;
+    border-radius: 5px;
+  }
+  a:hover{
+    color: #e05530;
+    opacity: 0.9;
+    border: 1px #e05530 solid;
+  }
 }
 
 

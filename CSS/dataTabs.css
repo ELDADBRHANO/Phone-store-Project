@@ -122,4 +122,15 @@ body {
     opacity: 0.5;
     box-shadow: 2px 2px 2px;
    }
+   a {
+    color: white;
+    text-decoration: none;
+    line-height: 2rem;
+    border-radius: 5px;
+  }
+  a:hover{
+    color: #e05530;
+    opacity: 0.9;
+    border: 1px #e05530 solid;
+  }
 }

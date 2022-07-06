@@ -161,17 +161,17 @@ body {
     color: white;
     text-decoration: none;
     line-height: 2rem;
+    border-radius: 5px;
   }
   a:hover{
+    color: #e05530;
     opacity: 0.9;
+    border: 1px #e05530 solid;
   }
   .img_devices{
     width: 20vw;
     border: 1px grey solid;
     border-radius: 1rem;
-  }
-  a:hover{
-    color: aliceblue;
   }
   .hidden {
     display: flex;
