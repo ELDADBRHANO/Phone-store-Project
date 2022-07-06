@@ -109,6 +109,10 @@ body {
     100%{background-image: url(../imges/gif_iimg/lo.jfif);
       background-size: 100% 100%}
   }
+  #watch{
+    width: 100vw;
+    height: 45vh;
+  }
 }
 
 @media screen and (min-width: 550px) {
