@@ -80,7 +80,7 @@
             Mobile Labs' Knowledge Base Articles, Online User Guide, Training
             Videos and Troubleshooting tips.
           </p>
-          <button id="support">Get support</button>
+          <button id="support-btn" onclick="location.href='dataTabs.html'">Click Me</button>
         </article>
       </div>
       <div id="location">
@@ -127,6 +127,12 @@
       </footer>
       <script src="../main.js"></script>
       <script src="../jsFiles/about.js"></script>
+      <script src="../jsFiles/contact.js"></script>
+      <script type="text/javascript">
+        document.getElementById("support-btn").onclick = function () {
+            location.href = "support.html";
+        };
+    </script>
     </div>
   </body>
 </html>

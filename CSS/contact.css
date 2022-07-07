@@ -23,7 +23,7 @@ body {
     flex-direction: column;
     align-items: center;
   }
-  #support{
+  #support-btn{
     color: white;
     border-radius: 1rem;
     background-color:#e05530 ;
@@ -150,7 +150,7 @@ body {
     align-items: center;
     width: 55vw;
   }
-  #support{
+  #support-btn{
     color: white;
     border-radius: 1rem;
     background-color:#e05530 ;

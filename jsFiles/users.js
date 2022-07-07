@@ -10,19 +10,17 @@ async function getUsers() {
 }
 
 function printUsersToTable() {
-  let myTable = document.getElementById("userTable")
+  let myTable = document.getElementById("tbody")
   getUsers()
   .then((res)=>{
     res.forEach(element => {
       myTable.innerHTML+=`
-      <tbody">
       <tr>
       <td> ${element.age}</td>
       <td>${element.name.first}</td>
       <td>${element.name.last}</td>
       <td>${element.phone}</td>
       </tr>
-      </tbody>
       `
     });
   })
@@ -81,6 +79,23 @@ async function getUser() {
 function registerUser() {
   getUser()
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
