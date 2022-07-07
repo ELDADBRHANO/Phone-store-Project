@@ -76,3 +76,87 @@
     border-bottom: 1px solid grey;
   }
 }
+
+
+@media screen and (min-width:550px) {
+
+  #me{
+    width: 100vw;
+    height: 80vh;
+    background-image: url(../imges/support-page-imges/AL.jpg);
+    background-size: 100% 100%;
+  }
+  .holdersss{
+    padding-right: 3vw;
+    background-color: white;
+    width: 95vw;
+    height:60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #tools{
+    width: 15vw;
+    padding: 10vw;
+    
+  }
+  .texts-support{
+    width: 75vw;
+  }
+  #firstDiv{
+    margin-top: 5vh;
+    border-top: 5px solid rgb(57, 255, 50);
+  }
+  #secondDiv{
+    border-top: 5px solid blue;
+  }
+  #thirdDiv{
+    border-top: 5px solid orange;
+    border-bottom: 3px solid black;
+  }
+  .forMoreBtn{
+    border: none;
+    background-color: white;
+    box-shadow: 2px 2px blue ;
+  }
+  #idontHeader{
+    width: 94vw;
+    padding: 5vw;
+    line-height: 5vh;
+  }
+  #idont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #contact-us-btn{
+    background-color: rgb(2,3,129);
+    color: whitesmoke;
+    border: none;
+    height: 5vh;
+  }
+  #blue{
+    background-image: url(../imges/support-page-imges/ba.jpg);
+    background-size: 100% 100%;
+  }
+  #proudlyP{
+    color: white;
+    padding: 5vw;
+  }
+  #iconsDiv{
+    padding: 5vw;
+
+  }
+  .Labproud{
+    color: rgb(2,3,129);
+    
+  }
+  #copyRights{
+    box-shadow: 2px 2px rgba(2, 2, 129, 0) ;
+    border-bottom: 1px solid grey;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+  }
+}
