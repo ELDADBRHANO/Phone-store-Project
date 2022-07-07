@@ -67,7 +67,10 @@ body {
       opacity: 0.5;
       box-shadow: 2px 2px 2px;
      }
-     
+     #HomeBtndiv{
+      display: flex;
+      justify-content: center;
+     }
 }
 
 

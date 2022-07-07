@@ -94,6 +94,9 @@
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
+      <div id="HomeBtndiv">
+        <button id="HomeBtn"> <strong>↑</strong></button>
+      </div>
       <div id="addres">
         <img id="credit" src="../imges/footer-imges/credit.png" alt="" />
         <span class="addres-header">
@@ -125,6 +128,7 @@
           </a>
         </div>
       </footer>
+    </div>
       <script src="../main.js"></script>
       <script src="../jsFiles/about.js"></script>
       <script src="../jsFiles/contact.js"></script>
@@ -133,7 +137,11 @@
             location.href = "support.html";
         };
     </script>
-    </div>
+              <script type="text/javascript">
+                document.getElementById("HomeBtn").onclick = function () {
+                  location.href = "Contact.html";
+                };
+              </script>
   </body>
 </html>
 

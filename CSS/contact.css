@@ -72,6 +72,11 @@ body {
       margin-top: 0;
     }
   }
+  #HomeBtndiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+  }
 }
 
 
