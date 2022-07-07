@@ -79,8 +79,82 @@
 
 
 @media screen and (min-width:550px) {
-
   #me{
+    width: 100vw;
+    height: 80vh;
+    background-image: url(../imges/support-page-imges/AL.jpg);
+    background-size: 100% 100%;
+  }
+  #parentForThree{
+    display: flex;
+   margin-top: 5vh;
+  }
+  #firstDiv{
+    border-top: 5px solid rgb(57, 255, 50);
+     padding: 5vw;
+
+  }
+  #secondDiv{
+    border-top: 5px solid blue;
+    padding: 5vw;
+  }
+  #thirdDiv{
+    padding: 5vw;
+    border-top: 5px solid orange;
+  }
+  .forMoreBtn{
+    border: none;
+    background-color: white;
+    box-shadow: 2px 2px blue ;
+  }
+  .tools{
+    padding: 5vw;
+  }
+  .category{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+  }
+  #blue{
+    height: 50vh;
+    background-image: url(../imges/support-page-imges/ba.jpg);
+    background-size: 100% 100%;
+  }
+  #proudlyP{
+    color: white;
+    padding: 5vw;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+  }
+  #iconsDiv{
+    padding: 5vw;
+  }
+  .Labproud{
+    color: rgb(2,3,129);
+    
+  }
+  #copyRights{
+    box-shadow: 2px 2px rgba(2, 2, 129, 0) ;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: center;
+  }
+  #contact-us-btn{
+    background-color: rgb(2,3,129);
+    color: whitesmoke;
+    border: none;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+  }
+  #idont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* #me{
     width: 100vw;
     height: 80vh;
     background-image: url(../imges/support-page-imges/AL.jpg);
@@ -96,7 +170,7 @@
     align-items: center;
   }
   #tools{
-    width: 15vw;
+    width: 3vw;
     padding: 10vw;
     
   }
@@ -145,7 +219,6 @@
   }
   #iconsDiv{
     padding: 5vw;
-
   }
   .Labproud{
     color: rgb(2,3,129);
@@ -158,5 +231,5 @@
   h1{
     display: flex;
     justify-content: center;
-  }
+  } */
 }
