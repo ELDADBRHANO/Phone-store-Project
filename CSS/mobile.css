@@ -18,7 +18,7 @@ body {
     position: relative;
     height: 100vh;
   }
-  #dropdown{
+  #dropdown {
     color: white;
   }
   #logo {
@@ -34,22 +34,22 @@ body {
     text-decoration: none;
     line-height: 2rem;
   }
-  a:hover{
+  a:hover {
     opacity: 0.9;
   }
-  .img_devices{
+  .img_devices {
     width: 20vw;
     border: 1px grey solid;
     border-radius: 1rem;
   }
-  a:hover{
+  a:hover {
     color: aliceblue;
   }
   .hidden {
     display: none;
   }
 
-  .btnbuy{
+  .btnbuy {
     width: 20vw;
     display: flex;
     align-items: center;
@@ -57,77 +57,85 @@ body {
     background-color: white;
     box-shadow: 2px 2px 2px;
     border: none;
-    
   }
-  #main{
+  #main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .holder{
+  .holder {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 15vh;
   }
-  .iphone-img{
+  .iphone-img {
     height: 50vh;
     width: 100vw;
   }
-  #addres{
+  #addres {
     background-color: black;
     width: 100vw;
     display: flex;
     flex-direction: row-reverse;
   }
-  #credit{
+  #credit {
     width: 40vw;
   }
-  #footer{
+  #footer {
     margin-top: 5vh;
   }
-  #iphoneGreen{
+  #iphoneGreen {
     width: 100vw;
   }
-  #bigS{
+  #bigS {
     display: flex;
     width: 100vw;
     height: 60vh;
     animation: bigS 8s infinite;
   }
   @keyframes bigS {
-    15%{background-image: url(../imges/gif_iimg/iii.webp);
-    background-size: 100% 100%;
+    15% {
+      background-image: url(../imges/gif_iimg/iii.webp);
+      background-size: 100% 100%;
     }
-    30%{background-image: url(../imges/gif_iimg/iphone.webp);
-      background-size: 100% 100%}
-    45%{background-image: url(../imges/gif_iimg/iphonnenne.webp);
-      background-size: 100% 100%}
-    60%{background-image: url(../imges/gif_iimg/lll.webp);
-      background-size: 100% 100%}
-    100%{background-image: url(../imges/gif_iimg/lo.jfif);
-      background-size: 100% 100%}
+    30% {
+      background-image: url(../imges/gif_iimg/iphone.webp);
+      background-size: 100% 100%;
+    }
+    45% {
+      background-image: url(../imges/gif_iimg/iphonnenne.webp);
+      background-size: 100% 100%;
+    }
+    60% {
+      background-image: url(../imges/gif_iimg/lll.webp);
+      background-size: 100% 100%;
+    }
+    100% {
+      background-image: url(../imges/gif_iimg/lo.jfif);
+      background-size: 100% 100%;
+    }
   }
-  #watch{
+  #watch {
     width: 100vw;
     height: 45vh;
   }
 }
 
 @media screen and (min-width: 550px) {
-   /* * {
+  /* * {
     box-sizing: border-box;
   }   */
-  #addres{
+  #addres {
     background-color: black;
     width: 100vw;
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-end;
-    justify-content: space-between;;
+    justify-content: space-between;
   }
-  #credit{
+  #credit {
     width: 25vw;
     height: 20vh;
   }
@@ -137,7 +145,6 @@ body {
     justify-content: space-between;
     padding: 2rem;
     padding: 4vw;
-    
   }
   #container {
     grid-template-areas: "header header header header", "main main main main",
@@ -146,7 +153,7 @@ body {
     position: relative;
     height: 100vh;
   }
-  #dropdown{
+  #dropdown {
     display: none;
   }
   #logo {
@@ -163,12 +170,12 @@ body {
     line-height: 2rem;
     border-radius: 5px;
   }
-  a:hover{
+  a:hover {
     color: #e05530;
     opacity: 0.9;
     border: 1px #e05530 solid;
   }
-  .img_devices{
+  .img_devices {
     width: 20vw;
     border: 1px grey solid;
     border-radius: 1rem;
@@ -178,7 +185,7 @@ body {
     justify-content: center;
     gap: 5vw;
   }
-  .btnbuy{
+  .btnbuy {
     width: 20vw;
     display: flex;
     justify-content: center;
@@ -188,59 +195,57 @@ body {
     border: none;
     box-shadow: 2px 2px 2px;
   }
-  #main{
+  #main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .holder{
+  .holder {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 15vh;
   }
-  .iphone-img{
-    height:60vh;
+  .iphone-img {
+    height: 60vh;
     width: 45vw;
   }
-  #iphoneGreen{
+  #iphoneGreen {
     width: 80vw;
   }
-  #footer{
+  #footer {
     margin-top: 5vh;
   }
-  #bigS{
+  #bigS {
     display: flex;
     width: 100vw;
     height: 60vh;
     animation: bigS 8s infinite;
   }
   @keyframes bigS {
-    15%{background-image: url(../imges/gif_iimg/iii.webp);
-    background-size: 100% 100%;
+    15% {
+      background-image: url(../imges/gif_iimg/iii.webp);
+      background-size: 100% 100%;
     }
-    30%{background-image: url(../imges/gif_iimg/iphone.webp);
-      background-size: 100% 100%}
-    45%{background-image: url(../imges/gif_iimg/iphonnenne.webp);
-      background-size: 100% 100%}
-    60%{background-image: url(../imges/gif_iimg/lll.webp);
-      background-size: 100% 100%}
-    100%{background-image: url(../imges/gif_iimg/lo.jfif);
-      background-size: 100% 100%}
+    30% {
+      background-image: url(../imges/gif_iimg/iphone.webp);
+      background-size: 100% 100%;
+    }
+    45% {
+      background-image: url(../imges/gif_iimg/iphonnenne.webp);
+      background-size: 100% 100%;
+    }
+    60% {
+      background-image: url(../imges/gif_iimg/lll.webp);
+      background-size: 100% 100%;
+    }
+    100% {
+      background-image: url(../imges/gif_iimg/lo.jfif);
+      background-size: 100% 100%;
+    }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* #header {
     display: flex;

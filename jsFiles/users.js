@@ -1,61 +1,55 @@
 let API = "https://my-json-server.typicode.com/Jeck99/fake-server/users";
 async function getUsers() {
   try {
-    return await fetch(API).then(res=>res.json())
-  } 
-  catch (error) {
-    console.log();(error)
+    return await fetch(API).then((res) => res.json());
+  } catch (error) {
+    console.log();
+    error;
+  } finally {
   }
-  finally{}
 }
 
 function printUsersToTable() {
-  let myTable = document.getElementById("tbody")
-  getUsers()
-  .then((res)=>{
-    res.forEach(element => {
-      myTable.innerHTML+=`
+  let myTable = document.getElementById("tbody");
+  getUsers().then((res) => {
+    res.forEach((element) => {
+      myTable.innerHTML += `
       <tr>
       <td> ${element.age}</td>
       <td>${element.name.first}</td>
       <td>${element.name.last}</td>
       <td>${element.phone}</td>
       </tr>
-      `
+      `;
     });
-  })
+  });
 }
-printUsersToTable()
-
-
-
+printUsersToTable();
 
 async function getUser() {
-  let myTable = document.getElementById("userTable")
-  const newUser={
+  let myTable = document.getElementById("userTable");
+  const newUser = {
     info: {
       phone: input_phone.value,
       name: {
         last: input_lastName.value,
         first: nameRegister.value,
       },
-      age:input_birth.value,
+      age: input_birth.value,
     },
-  }
+  };
   try {
-   await fetch(API,
-   {
-    method:"POST",
-    body:JSON.stringify(newUser),
-    headers:{
-      'Content-Type':'application/json'
-    }
-   }) 
-  }
-   catch (error) {
+    await fetch(API, {
+      method: "POST",
+      body: JSON.stringify(newUser),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+  } catch (error) {
     console.log(error);
-  }
-  finally{myTable.innerHTML+=`
+  } finally {
+    myTable.innerHTML += `
   <tr>
   <td>
   ${input_birth.value}
@@ -71,61 +65,17 @@ async function getUser() {
   </td>
   </tr>
   
-  `
-
-}
+  `;
+  }
 }
 
 function registerUser() {
-  getUser()
+  getUser();
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // function registerUser() {
 //   registration.innerHTML=`<div>Thank you for signing up!</div><br>`
 // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //  async function registerUser(event) {
 //   event.preventDefult()
@@ -151,9 +101,3 @@ function registerUser() {
 //   })
 //   return obj
 //  }
-
-
-
-
-
- 

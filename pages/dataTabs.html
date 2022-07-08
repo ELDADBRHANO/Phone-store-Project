@@ -1,70 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="../CSS/users.css">
-  <link rel="stylesheet" href="../CSS/mobile.css"/>
-  <link rel="stylesheet" href="../CSS/dataTabs.css">
-</head>
-<body>
-  <div id="container">
-    <div id="errors"></div>
-    <header id="header">
-      <img id="logo" src="../imges/header-logo-img/logo.png" alt="">
-      <div id="dropdown" onclick="dropdown(this)">&#9776;</div>
-      <div class="hidden">
-        <div><a href="../index.html">Home</a></div>
-        <div><a href="AboutEldad'sLab.html">About the Lab </a></div>
-        <div><a href="Contact.html">Contact</a></div>
-        <div><a href="dataTabs.html">Phones</a></div>
-        <div><a href="users.html">users</a></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/users.css" />
+    <link rel="stylesheet" href="../CSS/mobile.css" />
+    <link rel="stylesheet" href="../CSS/dataTabs.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="errors"></div>
+      <header id="header">
+        <img id="logo" src="../imges/header-logo-img/logo.png" alt="" />
+        <div id="dropdown" onclick="dropdown(this)">&#9776;</div>
+        <div class="hidden">
+          <div><a href="../index.html">Home</a></div>
+          <div><a href="AboutEldad'sLab.html">About the Lab </a></div>
+          <div><a href="Contact.html">Contact</a></div>
+          <div><a href="dataTabs.html">Phones</a></div>
+          <div><a href="users.html">users</a></div>
+        </div>
+      </header>
+      <div id="main">
+        <h1 id="header-tabs">LAB stock:</h1>
+        <small>ALL right RESERVED ® </small>
+        <div id="container_cards"></div>
+        <div id="buisnessicons">
+          <img
+            class="icons"
+            src="../imges/icons-for-data/costumer.jpg"
+            alt=""
+          />
+          <span class="icons-spans">Costumer services</span>
+          <img
+            class="icons"
+            src="../imges/icons-for-data/creditaccept.jpg"
+            alt=""
+          />
+          <span class="icons-spans">Credit card</span>
+          <img
+            class="icons"
+            src="../imges/icons-for-data/deliveries.jpg"
+            alt=""
+          />
+          <span class="icons-spans">Deliveries all over the world</span>
+        </div>
       </div>
-    </header>
-    <div id="main">
-      <h1 id="header-tabs">LAB stock:</h1>
-      <small>ALL right RESERVED ® </small>
-      <div id="container_cards">
-        
+      <div id="HomeBtndiv">
+        <button id="HomeBtn"><strong>↑</strong></button>
       </div>
-      <div id="buisnessicons">
-        <img class="icons" src="../imges/icons-for-data/costumer.jpg" alt="">
-        <span class="icons-spans">Costumer services</span>
-        <img  class="icons" src="../imges/icons-for-data/creditaccept.jpg" alt="">
-        <span class="icons-spans" >Credit card</span>
-        <img class="icons" src="../imges/icons-for-data/deliveries.jpg" alt="">
-        <span class="icons-spans">Deliveries all over the world</span>
+      <div id="addres">
+        <img id="credit" src="../imges/footer-imges/credit.png" alt="" />
+        <span class="addres-header">
+          King David Boulevard 11, Lod <br />
+          <a class="addres-header" href="mailto:ebrhano@gmail.com"
+            ><img
+              src="../imges/footer-imges/ma.logo.png"
+              alt=""
+              srcset=""
+            />Talk with US.</a
+          ><br />
+        </span>
       </div>
+      <footer id="footer">
+        <div id="social_media">
+          <a href="https://www.linkedin.com/in/eldad-brhano-59b531235/">
+            <img
+              src="../imges/footer-imges/linkedin (2).png"
+              id="linkdin_img"
+              alt=""
+            />
+          </a>
+          <a href="https://github.com/ELDADBRHANO">
+            <img
+              src="../imges/footer-imges/github (1).png"
+              id="git_img"
+              alt=""
+            />
+          </a>
+        </div>
+      </footer>
     </div>
-    <div id="HomeBtndiv">
-      <button id="HomeBtn"> <strong>↑</strong></button>
-    </div>
-    <div id="addres">
-      <img id="credit" src="../imges/footer-imges/credit.png" alt="">
-      <span class="addres-header">
-        King David Boulevard 11, Lod <br>
-        <a class="addres-header" href="mailto:ebrhano@gmail.com"><img  src="../imges/footer-imges/ma.logo.png" alt="" srcset="">Talk with US.</a><br>
-      </span> 
-    </div>
-    <footer id="footer">
-      <div id="social_media">
-        <a href="https://www.linkedin.com/in/eldad-brhano-59b531235/">
-          <img src="../imges/footer-imges/linkedin (2).png" id="linkdin_img" alt="">
-        </a>
-        <a href="https://github.com/ELDADBRHANO">
-          <img src="../imges/footer-imges/github (1).png" id="git_img" alt="">
-        </a>
-      </div>
-    </footer>
-  </div>
-  <script src="../main.js"></script>
-  <script src="../jsFiles/cards.js"></script>
-  <script type="text/javascript">
-    document.getElementById("HomeBtn").onclick = function () {
-      location.href = "dataTabs.html";
-    };
-  </script>
-</body>
+    <script src="../main.js"></script>
+    <script src="../jsFiles/cards.js"></script>
+    <script type="text/javascript">
+      document.getElementById("HomeBtn").onclick = function () {
+        location.href = "dataTabs.html";
+      };
+    </script>
+  </body>
 </html>

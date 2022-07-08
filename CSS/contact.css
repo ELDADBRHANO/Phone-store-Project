@@ -5,59 +5,57 @@ body {
   /* background-image: url(../imges/big-home-imges/pexels-gradienta-6985045.jpg);
   background-size: 100% 100% ; */
 }
-@media screen and (max-width:550px) {
+@media screen and (max-width: 550px) {
   * {
     box-sizing: border-box;
-  } */
-  #header{
+  }
+  */ #header {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
     width: 100vw;
     position: sticky;
     top: 0;
-    
   }
-  #clients{
+  #clients {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  #support-btn{
+  #support-btn {
     color: white;
     border-radius: 1rem;
-    background-color:#e05530 ;
+    background-color: #e05530;
   }
-  #headers-clients{
+  #headers-clients {
     color: #e55300;
   }
-  #explain-costumers{
+  #explain-costumers {
     padding: 5%;
   }
-  #footer{
+  #footer {
     grid-area: footer;
-    opacity:0.9 ;
+    opacity: 0.9;
   }
   /* * {
     box-sizing: border-box;
   } */
-  
- 
-  input[type=text], select, textarea {
+
+  input[type="text"],
+  select,
+  textarea {
     width: 100%;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
   }
-  
-  input[type=submit] {
-    background-color: #04AA6D;
+
+  input[type="submit"] {
+    background-color: #04aa6d;
     color: white;
     padding: 12px 20px;
     border: none;
   }
-  
- 
 
   .container {
     background-repeat: no-repeat;
@@ -65,43 +63,38 @@ body {
     padding: 7vw;
   }
 
-
   @media screen and (max-width: 600px) {
-    .column, input[type=submit] {
+    .column,
+    input[type="submit"] {
       width: 100%;
       margin-top: 0;
     }
   }
-  #HomeBtndiv{
+  #HomeBtndiv {
     display: flex;
     justify-content: center;
     margin-top: 4vh;
   }
 }
 
-
-
-
-
-
-
-@media screen and (min-width:550px) {
-  body{
+@media screen and (min-width: 550px) {
+  body {
     margin: 0;
     padding: 0;
   }
 
-  #footer{
+  #footer {
     grid-area: footer;
-    margin-top:5rem;
+    margin-top: 5rem;
     height: 10vh;
-    opacity:0.9 ;
+    opacity: 0.9;
     width: 100vw;
     padding: 1rem;
   }
-  
- 
-  input[type=text], select, textarea {
+
+  input[type="text"],
+  select,
+  textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -109,9 +102,9 @@ body {
     margin-bottom: 16px;
     resize: vertical;
   }
-  
-  input[type=submit] {
-    background-color: #04AA6D;
+
+  input[type="submit"] {
+    background-color: #04aa6d;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -124,52 +117,52 @@ body {
     padding: 10vw;
     border: 5px solid blue;
   }
-  #addres{
+  #addres {
     margin-top: 20vh;
     background-color: black;
     width: 100vw;
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-end;
-    justify-content: space-between;;
+    justify-content: space-between;
   }
-  #credit{
+  #credit {
     width: 25vw;
     height: 20vh;
   }
-  #footer{
+  #footer {
     margin-top: 5vh;
   }
 
-  .addres-header{
+  .addres-header {
     color: white;
   }
-  #clients{
+  #clients {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  #explain-costumers{
+  #explain-costumers {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 55vw;
   }
-  #support-btn{
+  #support-btn {
     color: white;
     border-radius: 1rem;
-    background-color:#e05530 ;
+    background-color: #e05530;
   }
-  #headers-clients{
+  #headers-clients {
     color: #e55300;
   }
-  #location{
+  #location {
     margin-top: 10vh;
     display: flex;
     justify-content: center;
   }
 
-  #map{
+  #map {
     width: 70vw;
   }
   a {
@@ -178,13 +171,14 @@ body {
     line-height: 2rem;
     border-radius: 5px;
   }
-  a:hover{
+  a:hover {
     color: #e05530;
     opacity: 0.9;
     border: 1px #e05530 solid;
   }
   @media screen and (max-width: 600px) {
-    .column, input[type=submit] {
+    .column,
+    input[type="submit"] {
       width: 100%;
       margin-top: 0;
     }

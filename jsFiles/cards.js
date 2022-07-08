@@ -1,5 +1,5 @@
 let url = "https://my-json-server.typicode.com/Jeck99/fake-server/devices";
-let counter =0;
+let counter = 0;
 let arrayImg = [
   "../imges/arrayImg/eight.webp",
   "../imges/arrayImg/eleven.webp",
@@ -28,8 +28,7 @@ async function get(html = " ") {
 get();
 
 function cardTemplate(device) {
-  let { id, brand, price, color, isAvailable, ram, createdAt } =
-    device;
+  let { id, brand, price, color, isAvailable, ram, createdAt } = device;
   return `
   <div id="${id}" class="card">
   <img id="phone" src="${arrayImg[counter++]}">
@@ -53,4 +52,4 @@ async function del(id) {
     document.getElementById("errors").innerHTML =
       "Something wrong, can`t delete";
 }
-// 
+//

@@ -3,111 +3,88 @@ body {
   padding: 0;
   font-family: Arial;
 }
-@media screen and (max-width:550px) {
-
-td{
-  border:  1px solid black;
-  width: 100vw;
- }
- #form{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
- }
- #register-sign{
-  display: flex;
-  justify-content: center;
- }
- #btn-register{
-  display: flex;
-  background-color: #e9bcb7;
-  background-image: linear-gradient(315deg, #90d5ec 0%, #db8084d2 74%);
- }
-}
-
-
-
-
-
-
-
-@media screen and (min-width:550px) {
-  td{
-    border:  1px solid black;
-    width: 10vw;
-   }
-   form{
-    display: flex;
-      flex-direction: column;
-      gap: 1rem;
-   }
-   #register-sign{
-    display: flex;
-    justify-content: center;
-    margin-top: 10vh;
-   }
-   .inputs{
-    width: 30vw;
-   }
-   #btn-register{
-    display: flex;
-    width: 10vw;
-    background-color: #e9bcb7;
-    background-image: linear-gradient(315deg, #90d5ec 0%, #db8084d2 74%);
-   }
-   #form{
+@media screen and (max-width: 550px) {
+  td {
+    border: 1px solid black;
+    width: 100vw;
+  }
+  #form {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-   }
-   #members_header{
+  }
+  #register-sign {
+    display: flex;
+    justify-content: center;
+  }
+  #btn-register {
+    display: flex;
+    background-color: #e9bcb7;
+    background-image: linear-gradient(315deg, #90d5ec 0%, #db8084d2 74%);
+  }
+}
+
+@media screen and (min-width: 550px) {
+  td {
+    border: 1px solid black;
+    width: 10vw;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  #register-sign {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+  }
+  .inputs {
+    width: 30vw;
+  }
+  #btn-register {
+    display: flex;
+    width: 10vw;
+    background-color: #e9bcb7;
+    background-image: linear-gradient(315deg, #90d5ec 0%, #db8084d2 74%);
+  }
+  #form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  #members_header {
     display: flex;
     justify-content: center;
     text-decoration: underline;
     /* margin-bottom: 5rem; */
-   }
-   .container2{
+  }
+  .container2 {
     display: flex;
     justify-content: center;
-   }
-   #registration{
+  }
+  #registration {
     margin-top: 10vh;
     display: flex;
     justify-content: center;
-   }
-   a {
+  }
+  a {
     color: white;
     text-decoration: none;
     line-height: 2rem;
     border-radius: 5px;
   }
-  a:hover{
+  a:hover {
     color: #e05530;
     opacity: 0.9;
     border: 1px #e05530 solid;
   }
-  
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* @media screen and (max-width: 550px) { */
-  /* body {
+/* body {
     margin: 0;
     padding: 0;
     font-family: Tahoma ;
