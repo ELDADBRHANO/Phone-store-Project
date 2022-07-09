@@ -3,8 +3,7 @@ async function getUsers() {
   try {
     return await fetch(API).then((res) => res.json());
   } catch (error) {
-    console.log();
-    error;
+    console.log(error);
   } finally {
   }
 }
@@ -72,6 +71,9 @@ async function getUser() {
 function registerUser() {
   getUser();
 }
+
+
+// d
 
 // function registerUser() {
 //   registration.innerHTML=`<div>Thank you for signing up!</div><br>`
