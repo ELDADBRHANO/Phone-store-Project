@@ -73,7 +73,6 @@ function registerUser() {
 }
 
 
-// d
 
 // function registerUser() {
 //   registration.innerHTML=`<div>Thank you for signing up!</div><br>`
