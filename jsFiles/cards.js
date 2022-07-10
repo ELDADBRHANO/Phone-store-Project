@@ -45,6 +45,14 @@ function cardTemplate(device) {
   `;
 }
 
+
+
+
+
+
+
+
+
 async function del(id) {
   let response = await fetch(url + "/" + id);
   if (response.status <= 299) document.getElementById(id).remove();
@@ -52,4 +60,4 @@ async function del(id) {
     document.getElementById("errors").innerHTML =
       "Something wrong, can`t delete";
 }
-//
+
