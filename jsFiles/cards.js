@@ -32,7 +32,7 @@ function cardTemplate(device) {
   return `
   <div id="${id}" class="card">
   <img id="phone" src="${arrayImg[counter++]}">
-  <div> brand : ${brand}  </div>
+  <div> brand :xxx ${brand}  </div>
   <div> price : ${price} $</div>
   <div> serial number : ${id}</div>
   <div> color : ${color}</div>

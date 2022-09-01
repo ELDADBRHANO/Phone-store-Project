@@ -62,7 +62,9 @@ body {
     border-radius: 5px;
     padding: 7vw;
   }
-
+  #text{
+    width: 40vw;
+  }
   @media screen and (max-width: 600px) {
     .column,
     input[type="submit"] {
